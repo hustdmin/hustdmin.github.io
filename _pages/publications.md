@@ -5,10 +5,10 @@ title: 研究成果
 description:
 nav: true
 nav_order: 4
+dropdown: true
+children: 
+    - title: 论文
+      permalink: /papers/
+    - title: 专利
+      permalink: /patents/
 ---
-<!-- _pages/publications.md -->
-<div class="publications">
-
-{% bibliography -f {{ site.scholar.bibliography }} %}
-
-</div>

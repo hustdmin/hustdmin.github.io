@@ -10,10 +10,10 @@ def resize_image(image_path, target_size):
 
 # 获取当前目录下所有的jpg图片文件
 current_directory = os.getcwd()
-image_files = [file for file in os.listdir(current_directory) if file.endswith(".jpg")]
+image_files = [file for file in os.listdir(current_directory) if file.endswith(".png")]
 
 # 设置目标尺寸
-target_size = (248, 298)  # 设置为自己想要的尺寸
+target_size = (335, 416)  # 设置为自己想要的尺寸
 
 # 遍历图片文件并调整尺寸
 for image_file in image_files:
