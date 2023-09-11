@@ -12,7 +12,7 @@ social: false  # includes social icons at the bottom of the page
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/DMIN.jpg" title="数字媒体与智能网络实验室" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/DMIN1.jpg" title="数字媒体与智能网络实验室" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 

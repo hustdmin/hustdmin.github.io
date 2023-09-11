@@ -289,7 +289,7 @@ jekyll-archives:
     tag: '/blog/tag/:name/'
     # category: '/blog/category/:name/'
 
-display_tags: ['讲座', '论文', '竞赛', '活动'] # these tags will be displayed on the front page of your blog
+display_tags: ['讲座', '论文', '竞赛', '荣誉', '活动'] # these tags will be displayed on the front page of your blog
 # display_categories: ['blockquotes'] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
