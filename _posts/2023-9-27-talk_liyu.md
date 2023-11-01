@@ -3,7 +3,7 @@ layout: post
 title:  喻莉教授受邀至重庆师范大学做学术报告
 date:   2023-9-27 23:59:30
 # description:
-tags: 论文
+tags: 讲座
 related_posts: false
 ---
 
