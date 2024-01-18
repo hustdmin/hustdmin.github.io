@@ -21,3 +21,5 @@ related_posts: false
         {% include figure.html path="assets/img/news/2023-changwen2.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+
+更多信息：[https://mp.weixin.qq.com/s/cNF3_PPge5ghy087FSTmtQ](https://mp.weixin.qq.com/s/cNF3_PPge5ghy087FSTmtQ)
