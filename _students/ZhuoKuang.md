@@ -1,9 +1,9 @@
 ---
 layout: page
 title: 匡卓
-description: 面向脑卒中、脑肿瘤的全监督和弱监督分割
+description: 国家电网
 img: assets/img/students/ZhuoKuang.png
-importance: 1
-category: 博士生
+importance: 26
+category: 已毕业博士
 redirect:
 ---
