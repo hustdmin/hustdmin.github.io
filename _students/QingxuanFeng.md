@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 冯清璇
-description: VR视频传输，网络资源调度
+description: 中国电信江西分公司
 img: assets/img/students/QingxuanFeng.png
 importance: 1
 category: 已毕业硕士
