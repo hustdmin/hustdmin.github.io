@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  实验室硕士生顺利毕业
+title:  DMIN实验室硕士生顺利毕业
 date:   2025-6-20 14:00:00
 # description:
 tags: 活动
@@ -20,4 +20,3 @@ related_posts: false
         {% include figure.html path="assets/img/news/2025-graduate2.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-
