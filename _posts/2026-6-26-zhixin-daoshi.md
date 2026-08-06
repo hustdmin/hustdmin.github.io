@@ -44,5 +44,4 @@ related_posts: false
 
 ---
 
-> 文字：旷锦昊　|　编辑：郭嗣谦　|　审核：萧芳冰
-> （原文链接：[喜报 | 电子信息与通信学院喻莉教授荣获华中科技大学2026年"知心导师"荣誉称号](https://mp.weixin.qq.com/s/E31Aphi284c4aStQyJZBGw)）
+原文链接：https://mp.weixin.qq.com/s/E31Aphi284c4aStQyJZBGw
