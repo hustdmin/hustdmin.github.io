@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  张鑫凌同学论文被Knowledge-Based Systems接收
+title:  张鑫凌同学论文被KBS接收
 date:   2026-01-28 23:10:00
 # description:
 tags: 论文
