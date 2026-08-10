@@ -1,0 +1,38 @@
+(function () {
+  function isEn() {
+    return window.location.pathname.startsWith('/en/');
+  }
+  function setLabel() {
+    var label = document.getElementById('lang-label');
+    if (label) { label.textContent = isEn() ? '中' : 'EN'; }
+  }
+  function showToast(msg) {
+    var t = document.createElement('div');
+    t.textContent = msg;
+    t.style.cssText = 'position:fixed;left:50%;top:70px;transform:translateX(-50%);background:rgba(0,0,0,.8);color:#fff;padding:8px 16px;border-radius:6px;z-index:9999;font-size:14px;';
+    document.body.appendChild(t);
+    setTimeout(function () { t.remove(); }, 2200);
+  }
+  function switchLang() {
+    var path = window.location.pathname;
+    var tail = window.location.search + window.location.hash;
+    if (isEn()) {
+      var cn = path.replace(/^\/en/, '') || '/';
+      window.location.assign(cn + tail);
+    } else {
+      var btn = document.getElementById('lang-toggle');
+      if (btn && btn.dataset.hasEn === 'true') {
+        var en = '/en' + (path === '/' ? '/' : path);
+        window.location.assign(en + tail);
+      } else {
+        showToast('英文版筹备中 / English version coming soon');
+      }
+    }
+  }
+  document.addEventListener('DOMContentLoaded', function () {
+    var btn = document.getElementById('lang-toggle');
+    if (!btn) return;
+    setLabel();
+    btn.addEventListener('click', switchLang);
+  });
+})();
