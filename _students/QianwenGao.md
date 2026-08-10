@@ -6,4 +6,6 @@ img: assets/img/students/QianwenGao.png
 importance: 4
 category: 硕士生
 redirect:
+description_en: Fine-grained action recognition
+category_en: Master Student
 ---
