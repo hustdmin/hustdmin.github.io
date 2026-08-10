@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Alumni
-permalink: /students_g/
+permalink: /en/students_g/
 description:
 lang: en
 nav: false
