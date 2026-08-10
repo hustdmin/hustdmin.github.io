@@ -6,4 +6,6 @@ img: assets/img/students/SaifeiTu.png
 importance: 3
 category: 硕士生
 redirect:
+description_en: Deep learning, adversarial attack and defense
+category_en: Master Student
 ---
