@@ -5,5 +5,7 @@ description: 在医学图像处理领域，基于深度学习的方法已经得�
 img: /assets/img/research/Medical.png
 importance: 4
 category:
+title_en: Medical Image Processing
+description_en: In the field of medical image processing, deep learning-based methods have attracted increasing attention. We have conducted in-depth research on a series of diseases including intracerebral hemorrhage. Our solutions can not only relieve doctors' visual fatigue but also improve diagnostic accuracy.
 ---
 
