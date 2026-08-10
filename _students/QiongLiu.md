@@ -6,4 +6,6 @@ img: assets/img/students/QiongLiu.png
 importance: 25
 category: 已毕业硕士
 redirect:
+description_en: China Electric Power Research Institute
+category_en: Master Graduate
 ---
