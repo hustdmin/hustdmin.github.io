@@ -10,7 +10,7 @@ has_en: true
 dropdown: true
 children:
     - title: Papers
-      permalink: /papers/
+      permalink: /en/papers/
     - title: Patents
-      permalink: /patents/
+      permalink: /en/patents/
 ---
