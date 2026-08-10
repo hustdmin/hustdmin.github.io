@@ -6,4 +6,6 @@ img: assets/img/students/HaiyanHuang.png
 importance: 24
 category: 已毕业硕士
 redirect:
+description_en: Ph.D. student at Wuhan University
+category_en: Master Graduate
 ---
