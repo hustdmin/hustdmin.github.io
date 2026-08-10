@@ -6,4 +6,6 @@ img: assets/img/students/NannanWu.png
 importance: 10
 category: 博士生
 redirect: https://wnn2000.github.io/
+description_en: Medical image processing, federated learning
+category_en: Ph.D. Student
 ---
