@@ -6,4 +6,6 @@ img: assets/img/students/YingjieDu.png
 importance: 16
 category: 博士生
 redirect:
+description_en: Deep learning, intelligent transportation, object detection
+category_en: Ph.D. Student
 ---
