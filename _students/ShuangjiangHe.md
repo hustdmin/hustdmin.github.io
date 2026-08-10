@@ -6,4 +6,6 @@ img: assets/img/students/ShuangjiangHe.png
 importance: 4
 category: 博士生
 redirect:
+description_en: AI, affective computing, computer vision, facial expression recognition and generation
+category_en: Ph.D. Student
 ---
