@@ -6,4 +6,6 @@ img: assets/img/students/male.png
 importance: 32
 category: 已毕业博士
 redirect:
+description_en: International Student
+category_en: Ph.D. Graduate
 ---
