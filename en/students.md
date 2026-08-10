@@ -10,7 +10,7 @@ has_en: true
 dropdown: true
 children:
     - title: Current Students
-      permalink: /students_u/
+      permalink: /en/students_u/
     - title: Alumni
-      permalink: /students_g/
+      permalink: /en/students_g/
 ---
