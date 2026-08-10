@@ -6,4 +6,6 @@ img: assets/img/students/XiayuGuo.png
 importance: 3
 category: 硕士生
 redirect:
+description_en: Medical image segmentation
+category_en: Master Student
 ---
