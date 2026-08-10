@@ -6,4 +6,6 @@ img: assets/img/students/YanCheng.png
 importance: 1
 category: 已毕业硕士
 redirect:
+description_en: MetaQ Technology, graduated 2024
+category_en: Master Graduate
 ---
