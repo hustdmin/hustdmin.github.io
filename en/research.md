@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Research
-permalink: /research/
+permalink: /en/research/
 description:
 lang: en
 nav: true
