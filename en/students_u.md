@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Current Students
-permalink: /students_u/
+permalink: /en/students_u/
 description:
 lang: en
 nav: false
