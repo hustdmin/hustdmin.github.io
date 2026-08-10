@@ -6,4 +6,6 @@ img: assets/img/students/XinlingZhang.png
 importance: 3
 category: 硕士生
 redirect:
+description_en: Face forgery detection
+category_en: Master Student
 ---
