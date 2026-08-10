@@ -37,6 +37,13 @@ layout: default
       {% endif %}
 
     </p>
+
+      {%- if site.enable_busuanzi -%}
+      <p class="post-meta">
+        <i class="fas fa-eye fa-sm"></i> 阅读量 <span id="busuanzi_value_page_pv">0</span> 次
+      </p>
+      {%- endif -%}
+
   </header>
 
   <article class="post-content">
