@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /papers/
+permalink: /en/papers/
 title: Papers
 lang: en
 nav: false
