@@ -6,4 +6,6 @@ img: assets/img/students/DeqiaoGan.png
 importance: 24
 category: 已毕业硕士
 redirect:
+description_en: Continuing Ph.D. at HUST
+category_en: Master Graduate
 ---
