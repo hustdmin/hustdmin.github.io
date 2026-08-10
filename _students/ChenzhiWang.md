@@ -6,4 +6,6 @@ img: assets/img/students/ChenzhiWang.png
 importance: 2
 category: 硕士生
 redirect:
+description_en: Edge video analytics
+category_en: Master Student
 ---
