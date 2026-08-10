@@ -11,4 +11,5 @@ children:
       permalink: /students_u/
     - title: 已毕业学生
       permalink: /students_g/
+has_en: true
 ---
