@@ -6,4 +6,6 @@ img: assets/img/students/YinengHua.png
 importance: 23
 category: 已毕业硕士
 redirect:
+description_en: CITIC Securities
+category_en: Master Graduate
 ---
