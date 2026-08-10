@@ -6,4 +6,6 @@ img: assets/img/students/JunjieShi.png
 importance: 3
 category: 硕士生
 redirect:
+description_en: 3D medical image segmentation, lightweight models
+category_en: Master Student
 ---
