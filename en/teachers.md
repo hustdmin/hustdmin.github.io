@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Faculty
-permalink: /teachers/
+permalink: /en/teachers/
 description:
 lang: en
 nav: true
