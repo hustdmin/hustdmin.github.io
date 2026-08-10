@@ -6,4 +6,6 @@ img: assets/img/students/HongkuiWang.png
 importance: 25
 category: 已毕业博士
 redirect:
+description_en: Faculty at School of Communication Engineering, Hangzhou Dianzi University
+category_en: Ph.D. Graduate
 ---
