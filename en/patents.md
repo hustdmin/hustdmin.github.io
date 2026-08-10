@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /patents/
+permalink: /en/patents/
 title: Patents
 lang: en
 nav: false
