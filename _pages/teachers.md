@@ -7,6 +7,7 @@ nav: true
 nav_order: 2
 display_categories: [团队负责人, 团队教师, 顾问]
 horizontal: true
+has_en: true
 ---
 <div class="projects">
   <!-- Display categorized projects -->
