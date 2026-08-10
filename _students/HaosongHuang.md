@@ -6,4 +6,6 @@ img: assets/img/students/HaosongHuang.png
 importance: 4
 category: 硕士生
 redirect:
+description_en: Object detection and tracking
+category_en: Master Student
 ---
