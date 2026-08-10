@@ -6,4 +6,6 @@ img: assets/img/students/JingjingLuo.png
 importance: 4
 category: 已毕业博士
 redirect:
+description_en: Assistant Professor at Harbin Institute of Technology (Shenzhen)
+category_en: Ph.D. Graduate
 ---
