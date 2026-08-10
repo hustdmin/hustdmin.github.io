@@ -6,4 +6,6 @@ img: assets/img/students/SushuYang.png
 importance: 1
 category: 已毕业硕士
 redirect:
+description_en: Chongqing Rural Commercial Bank, graduated 2024
+category_en: Master Graduate
 ---
