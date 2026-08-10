@@ -6,4 +6,6 @@ img: assets/img/students/HaoTao.png
 importance: 25
 category: 已毕业硕士
 redirect:
+description_en: Huawei
+category_en: Master Graduate
 ---
