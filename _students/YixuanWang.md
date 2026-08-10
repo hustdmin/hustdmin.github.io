@@ -6,4 +6,6 @@ img: assets/img/students/YixuanWang.png
 importance: 26
 category: 已毕业硕士
 redirect:
+description_en: Wuhan Vocational College of Software and Engineering
+category_en: Master Graduate
 ---
