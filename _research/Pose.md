@@ -5,6 +5,8 @@ description: 在数字时代的浪潮中，有一支团队正以不懈的努力�
 img: /assets/img/research/Robot.png
 importance: 2
 category:
+title_en: Vision and Affective-Interactive Robotics
+description_en: In the digital era, a team is driving the development of computer vision technology with relentless effort and innovative spirit, bringing unprecedented transformation to the health-care field—this is the Vision Group of our DMIN Laboratory. Standing at the frontier where technology meets humanity, we are dedicated to transforming cutting-edge technology into warm, people-centered services, letting the light of technology illuminate every life corner in need of care.
 ---
 
 **【研究方向：视觉与情智交互机器人**】
