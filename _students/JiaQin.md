@@ -6,4 +6,6 @@ img: assets/img/students/JiaQin.png
 importance: 4
 category: 硕士生
 redirect:
+description_en: Video coding
+category_en: Master Student
 ---
