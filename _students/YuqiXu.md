@@ -6,4 +6,6 @@ img: assets/img/students/YuqiXu.png
 importance: 2
 category: 硕士生
 redirect:
+description_en: Semi-supervised learning, remote sensing image captioning
+category_en: Master Student
 ---
