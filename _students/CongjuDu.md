@@ -6,4 +6,6 @@ img: assets/img/students/CongjuDu.png
 importance: 26
 category: 已毕业博士
 redirect: https://ducongju.github.io/
+description_en: Liaoning Provincial Public Security Department, graduated 2023
+category_en: Ph.D. Graduate
 ---
