@@ -6,4 +6,6 @@ img: assets/img/students/YangyangXiang.png
 importance: 3
 category: 硕士生
 redirect:
+description_en: Medical image processing, federated learning
+category_en: Master Student
 ---
