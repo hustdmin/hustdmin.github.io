@@ -6,4 +6,6 @@ img: assets/img/students/KainanZhan.png
 importance: 3
 category: 硕士生
 redirect:
+description_en: Energy efficiency
+category_en: Master Student
 ---
