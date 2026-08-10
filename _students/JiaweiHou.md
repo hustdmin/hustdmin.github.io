@@ -6,4 +6,6 @@ img: assets/img/students/JiaweiHou.png
 importance: 8
 category: 博士生
 redirect:
+description_en: Video analytics, vehicle-infrastructure cooperative perception
+category_en: Ph.D. Student
 ---
