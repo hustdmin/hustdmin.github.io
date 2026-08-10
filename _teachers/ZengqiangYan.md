@@ -6,4 +6,6 @@ img: /assets/img/teachers/ZengqiangYan.png
 importance: 4
 category: 团队教师
 redirect: http://faculty.hust.edu.cn/yanzengqiang/zh_CN/index.htm
+description_en: Associate Professor
+category_en: Faculty
 ---
