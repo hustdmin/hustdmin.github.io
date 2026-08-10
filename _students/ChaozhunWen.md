@@ -6,4 +6,6 @@ img: assets/img/students/ChaozhunWen.png
 importance: 26
 category: 已毕业硕士
 redirect:
+description_en: Guangzhou Pagoda Network Technology
+category_en: Master Graduate
 ---
