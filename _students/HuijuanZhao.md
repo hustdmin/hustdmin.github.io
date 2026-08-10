@@ -6,4 +6,6 @@ img: assets/img/students/HuijuanZhao.png
 importance: 5
 category: 博士生
 redirect:
+description_en: AI, affective computing, computer vision, transfer learning
+category_en: Ph.D. Student
 ---
