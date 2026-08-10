@@ -6,4 +6,6 @@ img: assets/img/students/JiajunLing.png
 importance: 2
 category: 硕士生
 redirect:
+description_en: Deep learning, intelligent transportation
+category_en: Master Student
 ---
