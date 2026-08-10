@@ -36,3 +36,6 @@
     <script src="{{ '/assets/js/theme.js' | relative_url | bust_file_cache }}"></script>
     <script src="{{ '/assets/js/dark_mode.js' | relative_url | bust_file_cache }}"></script>
     {% endif %}
+    {% if site.enable_langswitch %}
+    <script src="{{ '/assets/js/lang_switch.js' | relative_url | bust_file_cache }}"></script>
+    {% endif %}
