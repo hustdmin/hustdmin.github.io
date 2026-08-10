@@ -5,5 +5,7 @@ description: 我们的研究专注于媒体流媒体和网络协议优化。我�
 img: /assets/img/research/Networking.png
 importance: 3
 category:
+title_en: Network Communications
+description_en: Our research focuses on media streaming and network protocol optimization. We are committed to addressing challenges in multimedia transmission and providing better visual and auditory experiences. We explore how to improve transport protocols, routing algorithms, and congestion control strategies to enhance network stability, throughput, and responsiveness.
 ---
 
