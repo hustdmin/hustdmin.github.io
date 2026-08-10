@@ -6,4 +6,6 @@ img: assets/img/students/ZhenyuLi.png
 importance: 2
 category: 硕士生
 redirect:
+description_en: Human pose estimation, model lightweighting
+category_en: Master Student
 ---
