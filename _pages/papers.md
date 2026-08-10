@@ -4,6 +4,7 @@ permalink: /papers/
 title: 论文
 description:
 nav: false
+has_en: true
 ---
 
 <div class="publications">
