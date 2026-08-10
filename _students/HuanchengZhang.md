@@ -6,4 +6,6 @@ img: assets/img/students/HuanchengZhang.png
 importance: 25
 category: 已毕业硕士
 redirect:
+description_en: Counselor at HUST
+category_en: Master Graduate
 ---
