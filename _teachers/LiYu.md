@@ -6,4 +6,6 @@ img: /assets/img/teachers/LiYu.png
 importance: 1
 category: 团队负责人
 redirect: http://eic.hust.edu.cn/professor/yuli/
+description_en: Professor (Level 2), Ph.D. Supervisor
+category_en: Team Lead
 ---
