@@ -6,4 +6,6 @@ img: assets/img/students/CaozhiShang.png
 importance: 14
 category: 博士生
 redirect: 
+description_en: Deep learning, medical image processing
+category_en: Ph.D. Student
 ---
