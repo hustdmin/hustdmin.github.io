@@ -16,3 +16,8 @@
     cronitor('config', { clientKey: '{{site.cronitor_analytics}}' });
   </script>
 {%- endif -%}
+
+{%- if site.enable_busuanzi -%}
+  <!-- Busuanzi 页面阅读量统计 -->
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+{%- endif -%}
