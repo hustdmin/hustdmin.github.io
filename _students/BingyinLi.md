@@ -6,4 +6,6 @@ img: assets/img/students/BingyinLi.png
 importance: 2
 category: 硕士生
 redirect:
+description_en: Affective computing
+category_en: Master Student
 ---
