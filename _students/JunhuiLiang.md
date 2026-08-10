@@ -6,4 +6,6 @@ img: assets/img/students/JunhuiLiang.png
 importance: 26
 category: 已毕业硕士
 redirect:
+description_en: Bilibili
+category_en: Master Graduate
 ---
