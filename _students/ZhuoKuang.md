@@ -6,4 +6,6 @@ img: assets/img/students/ZhuoKuang.png
 importance: 26
 category: 已毕业博士
 redirect:
+description_en: State Grid, graduated 2024
+category_en: Ph.D. Graduate
 ---
