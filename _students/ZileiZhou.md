@@ -6,4 +6,6 @@ img: assets/img/students/ZileiZhou.png
 importance: 3
 category: 硕士生
 redirect:
+description_en: Remote sensing text-image retrieval
+category_en: Master Student
 ---
