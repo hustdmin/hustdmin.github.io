@@ -6,4 +6,6 @@ img: assets/img/students/JunlinLi.png
 importance: 24
 category: 已毕业硕士
 redirect:
+description_en: Agricultural Bank of China R&D Center, Wuhan
+category_en: Master Graduate
 ---
