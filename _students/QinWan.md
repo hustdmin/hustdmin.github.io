@@ -6,4 +6,6 @@ img: assets/img/students/QinWan.png
 importance: 1
 category: 已毕业硕士
 redirect:
+description_en: State Grid, graduated 2024
+category_en: Master Graduate
 ---
