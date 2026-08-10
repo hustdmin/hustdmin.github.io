@@ -7,6 +7,7 @@ nav: true
 nav_order: 1
 display_categories:
 horizontal: true
+has_en: true
 ---
 
 <!-- pages/projects.md -->
