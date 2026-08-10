@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Students
-permalink: /students/
+permalink: /en/students/
 description:
 lang: en
 nav: true
