@@ -36,6 +36,9 @@
 
           <div class="collapse navbar-collapse text-right" id="navbarNav">
             <ul class="navbar-nav ml-auto flex-nowrap">
+              {%- assign current_lang = page.lang | default: 'cn' -%}
+              {%- assign other_lang = 'en' -%}
+              {%- if current_lang == 'en' %}{%- assign other_lang = 'cn' %}{%- endif -%}
 
               {%- for page in site.pages -%}
                 {% if page.permalink == '/' %}
@@ -43,18 +46,23 @@
                 {% endif %}
               {% endfor %}
 
-              <!-- About -->
-              <li class="nav-item {% if page.permalink == '/' %}active{% endif %}">
-                <a class="nav-link" href="{{ '/' | relative_url }}">{{ about_title }}
-                  {%- if page.permalink == '/' -%}
+              <!-- About / Home -->
+              {%- assign about_permalink = '/' -%}
+              {%- assign about_label = about_title -%}
+              {%- if current_lang == 'en' %}{%- assign about_permalink = '/en/' -%}{%- assign about_label = 'Home' %}{%- endif -%}
+              <li class="nav-item {% if page.permalink == about_permalink %}active{% endif %}">
+                <a class="nav-link" href="{{ about_permalink | relative_url }}">{{ about_label }}
+                  {%- if page.permalink == about_permalink -%}
                   <span class="sr-only">(current)</span>
                   {%- endif -%}
                 </a>
               </li>
               {% if site.blog_nav_title %}
               <!-- Blog -->
+              {%- assign blog_label = site.blog_nav_title -%}
+              {%- if current_lang == 'en' %}{%- assign blog_label = 'News' %}{%- endif -%}
               <li class="nav-item {% if page.url contains 'blog' %}active{% endif %}">
-                <a class="nav-link" href="{{ '/blog/' | relative_url }}">{{ site.blog_nav_title }}
+                <a class="nav-link" href="{{ '/blog/' | relative_url }}">{{ blog_label }}
                   {%- if page.url contains 'blog' -%}
                   <span class="sr-only">(current)</span>
                   {%- endif -%}
@@ -65,7 +73,8 @@
               <!-- Other pages -->
               {%- assign sorted_pages = site.pages | sort: "nav_order" -%}
               {%- for p in sorted_pages -%}
-              {%- if p.nav and p.autogen == nil -%}
+              {%- assign p_lang = p.lang | default: 'cn' -%}
+              {%- if p.nav and p.autogen == nil and p_lang == current_lang -%}
               {%- if p.dropdown %}
               <li class="nav-item dropdown {% if page.title == p.title %}active{% endif %}">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ p.title }}
@@ -101,6 +110,14 @@
                 <button id="light-toggle" title="Change theme">
                   <i class="fas fa-moon"></i>
                   <i class="fas fa-sun"></i>
+                </button>
+              </li>
+              {%- endif %}
+              {%- if site.enable_langswitch %}
+              <!-- Language switch -->
+              <li class="toggle-container">
+                <button id="lang-toggle" title="Switch language" data-has-en="{{ page.has_en | default: false }}">
+                  <span id="lang-label">EN</span>
                 </button>
               </li>
               {%- endif %}
