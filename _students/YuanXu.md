@@ -6,4 +6,6 @@ img: assets/img/students/YuanXu.png
 importance: 25
 category: 已毕业硕士
 redirect:
+description_en: Douyu
+category_en: Master Graduate
 ---
