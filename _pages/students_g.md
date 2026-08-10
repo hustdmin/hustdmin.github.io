@@ -6,6 +6,7 @@ description:
 nav: false
 display_categories: [已毕业博士, 已毕业硕士]
 horizontal: true
+has_en: true
 ---
 <div class="projects">
   <!-- Display categorized projects -->
