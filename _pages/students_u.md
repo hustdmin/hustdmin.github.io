@@ -6,6 +6,7 @@ description:
 nav: false
 display_categories: [博士生, 硕士生]
 horizontal: true
+has_en: true
 ---
 <div class="projects">
   <!-- Display categorized projects -->
