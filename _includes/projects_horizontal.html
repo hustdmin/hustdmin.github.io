@@ -15,8 +15,9 @@
         <div class="col-md-12">
         {%- endif -%}
           <div class="card-body">
-            <h3 class="card-title text-lowercase">{{ project.title }}</h3>
-            <p class="card-text">{{ project.description }}</p>
+            {%- assign L = page.lang | default: site.lang -%}
+            <h3 class="card-title {% unless L == 'en' %}text-lowercase{% endunless %}">{{ project.title_en | default: project.title }}</h3>
+            <p class="card-text">{{ project.description_en | default: project.description }}</p>
             <div class="row ml-1 mr-1 p-0">
               {%- if project.github -%}
               <div class="github-icon">
