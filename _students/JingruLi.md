@@ -6,4 +6,6 @@ img: assets/img/students/female.png
 importance: 28
 category: 已毕业博士
 redirect:
+description_en: State Grid Corporation of China
+category_en: Ph.D. Graduate
 ---
