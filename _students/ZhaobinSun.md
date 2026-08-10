@@ -6,4 +6,6 @@ img: assets/img/students/ZhaobinSun.png
 importance: 13
 category: 博士生
 redirect: 
+description_en: Federated learning
+category_en: Ph.D. Student
 ---
