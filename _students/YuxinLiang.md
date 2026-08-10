@@ -6,4 +6,6 @@ img: assets/img/students/YuxinLiang.png
 importance: 4
 category: 硕士生
 redirect:
+description_en: Mobile AIGC networks
+category_en: Master Student
 ---
