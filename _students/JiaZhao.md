@@ -6,4 +6,6 @@ img: assets/img/students/female.png
 importance: 30
 category: 已毕业博士
 redirect:
+description_en: Zhongyuan Electronics
+category_en: Ph.D. Graduate
 ---
