@@ -6,4 +6,6 @@ img: assets/img/students/WeiPeng.png
 importance: 24
 category: 已毕业硕士
 redirect:
+description_en: Alibaba
+category_en: Master Graduate
 ---
