@@ -6,4 +6,6 @@ img: assets/img/students/YuxinKong.png
 importance: 3
 category: 硕士生
 redirect:
+description_en: Video analytics
+category_en: Master Student
 ---
