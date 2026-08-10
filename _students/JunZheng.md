@@ -6,4 +6,6 @@ img: assets/img/students/male.png
 importance: 27
 category: 已毕业博士
 redirect:
+description_en: Zhejiang A&F University
+category_en: Ph.D. Graduate
 ---
