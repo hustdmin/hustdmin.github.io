@@ -1,6 +1,7 @@
 ---
 layout: page
 title: 范式春芳
+title_en: Fanshichunfang
 description: 国际生
 img: assets/img/students/female.png
 importance: 34
