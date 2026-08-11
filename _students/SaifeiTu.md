@@ -1,6 +1,7 @@
 ---
 layout: page
 title: 涂赛飞
+title_en: Saifei Tu
 description: 深度学习，对抗攻击与防御
 img: assets/img/students/SaifeiTu.png
 importance: 3
