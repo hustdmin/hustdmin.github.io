@@ -1,6 +1,7 @@
 ---
 layout: page
 title: 闫增强
+title_en: Zengqiang Yan
 description: 副教授
 img: /assets/img/teachers/ZengqiangYan.png
 importance: 4
