@@ -15,9 +15,16 @@
         <div class="col-md-12">
         {%- endif -%}
           <div class="card-body">
-            {%- assign L = page.lang | default: site.lang -%}
-            <h3 class="card-title {% unless L == 'en' %}text-lowercase{% endunless %}">{{ project.title_en | default: project.title }}</h3>
-            <p class="card-text">{{ project.description_en | default: project.description }}</p>
+            {%- assign L = page.lang | default: "cn" -%}
+            {%- if L == 'en' -%}
+              {%- assign card_title = project.title_en | default: project.title -%}
+              {%- assign card_desc = project.description_en | default: project.description -%}
+            {%- else -%}
+              {%- assign card_title = project.title -%}
+              {%- assign card_desc = project.description -%}
+            {%- endif -%}
+            <h3 class="card-title {% unless L == 'en' %}text-lowercase{% endunless %}">{{ card_title }}</h3>
+            <p class="card-text">{{ card_desc }}</p>
             <div class="row ml-1 mr-1 p-0">
               {%- if project.github -%}
               <div class="github-icon">
