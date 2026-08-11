@@ -1,6 +1,7 @@
 ---
 layout: page
 title: 匡卓
+title_en: Zhuo Kuang
 description: 国家电网，2024年毕业
 img: assets/img/students/ZhuoKuang.png
 importance: 26
