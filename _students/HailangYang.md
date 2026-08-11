@@ -1,6 +1,7 @@
 ---
 layout: page
 title: 阳海浪
+title_en: Hailang Yang
 description: 中车株洲所
 img: assets/img/students/HailangYang.png
 importance: 25
