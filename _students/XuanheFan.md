@@ -1,6 +1,7 @@
 ---
 layout: page
 title: 范烜赫
+title_en: Xuanhe Fan
 description: 人工智能，计算机视觉，生理信号识别
 img: assets/img/students/XuanheFan.png
 importance: 16
