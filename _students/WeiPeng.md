@@ -1,6 +1,7 @@
 ---
 layout: page
 title: 彭玮
+title_en: Wei Peng
 description: 阿里巴巴
 img: assets/img/students/WeiPeng.png
 importance: 24
