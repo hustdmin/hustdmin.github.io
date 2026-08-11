@@ -1,6 +1,7 @@
 ---
 layout: page
 title: 王文轩
+title_en: Wenxuan Wang
 description: 机械臂抓取
 img: assets/img/students/WenxuanWang.png
 importance: 4
