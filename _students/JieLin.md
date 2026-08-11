@@ -1,6 +1,7 @@
 ---
 layout: page
 title: 林洁
+title_en: Jie Lin
 description: 车联网
 img: assets/img/students/JieLin.png
 importance: 3
