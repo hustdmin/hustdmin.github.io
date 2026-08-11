@@ -1,6 +1,7 @@
 ---
 layout: page
 title: 王秋霞
+title_en: Qiuxia Wang
 description: 字节跳动
 img: assets/img/students/QiuxiaWang.png
 importance: 25
