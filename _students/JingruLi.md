@@ -1,6 +1,7 @@
 ---
 layout: page
 title: 李静茹
+title_en: Jingru Li
 description: 国家电网
 img: assets/img/students/female.png
 importance: 28
