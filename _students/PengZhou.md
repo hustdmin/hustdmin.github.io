@@ -1,6 +1,7 @@
 ---
 layout: page
 title: 周鹏
+title_en: Peng Zhou
 description: 中原电子
 img: assets/img/students/male.png
 importance: 29
