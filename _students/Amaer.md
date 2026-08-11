@@ -1,6 +1,7 @@
 ---
 layout: page
 title: 阿玛尔
+title_en: Amaer
 description: 国际生
 img: assets/img/students/male.png
 importance: 35
