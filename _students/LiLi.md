@@ -1,6 +1,7 @@
 ---
 layout: page
 title: 李立
+title_en: Li Li
 description: 2012年博士毕业
 img: assets/img/students/male.png
 importance: 34
