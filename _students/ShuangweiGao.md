@@ -1,6 +1,7 @@
 ---
 layout: page
 title: 高双威
+title_en: Shuangwei Gao
 description: 边缘AIGC服务
 img: assets/img/students/ShuangweiGao.png
 importance: 3
