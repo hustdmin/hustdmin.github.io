@@ -1,6 +1,7 @@
 ---
 layout: page
 title: 李丙银
+title_en: Bingyin Li
 description: 情感计算
 img: assets/img/students/BingyinLi.png
 importance: 2
