@@ -1,6 +1,7 @@
 ---
 layout: page
 title: 喻晗
+title_en: Han Yu
 description: 小米
 img: assets/img/students/HanYu.png
 importance: 24
