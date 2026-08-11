@@ -1,6 +1,7 @@
 ---
 layout: page
 title: 钱健
+title_en: Jian Qian
 description: 大疆
 img: assets/img/students/JianQian.png
 importance: 24
