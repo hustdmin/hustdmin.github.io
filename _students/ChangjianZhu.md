@@ -1,6 +1,7 @@
 ---
 layout: page
 title: 祝常健
+title_en: Changjian Zhu
 description: 广西师范大学副教授
 img: assets/img/students/male.png
 importance: 29
