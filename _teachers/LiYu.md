@@ -1,6 +1,7 @@
 ---
 layout: page
 title: 喻莉
+title_en: Li Yu
 description: 二级教授，博导
 img: /assets/img/teachers/LiYu.png
 importance: 1
