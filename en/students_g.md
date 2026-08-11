@@ -6,7 +6,7 @@ description:
 lang: en
 nav: false
 has_en: true
-display_categories: [Ph.D. Graduates, Master Graduates]
+display_categories: [Ph.D. Graduate, Master Graduate]
 horizontal: true
 ---
 <div class="projects">
