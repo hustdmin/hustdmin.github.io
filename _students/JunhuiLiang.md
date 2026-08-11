@@ -1,6 +1,7 @@
 ---
 layout: page
 title: 梁俊辉
+title_en: Junhui Liang
 description: 哔哩哔哩
 img: assets/img/students/JunhuiLiang.png
 importance: 26
