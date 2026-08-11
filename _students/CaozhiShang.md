@@ -1,6 +1,7 @@
 ---
 layout: page
 title: 尚曹志
+title_en: Caozhi Shang
 description: 深度学习，医学图像处理
 img: assets/img/students/CaozhiShang.png
 importance: 14
