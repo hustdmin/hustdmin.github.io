@@ -1,6 +1,7 @@
 ---
 layout: page
 title: 郭夏妤
+title_en: Xiayu Guo
 description: 医学图像分割
 img: assets/img/students/XiayuGuo.png
 importance: 3
