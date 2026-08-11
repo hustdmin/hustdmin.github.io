@@ -1,6 +1,7 @@
 ---
 layout: page
 title: 吴南楠
+title_en: Nannan Wu
 description: 医学图像处理，联邦学习
 img: assets/img/students/NannanWu.png
 importance: 10
