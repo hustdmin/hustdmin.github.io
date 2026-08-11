@@ -1,6 +1,7 @@
 ---
 layout: page
 title: 杜聪炬
+title_en: Congju Du
 description: 辽宁省公安厅，2023年毕业
 img: assets/img/students/CongjuDu.png
 importance: 26
