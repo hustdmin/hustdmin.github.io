@@ -1,6 +1,7 @@
 ---
 layout: page
 title: 艾德瑞
+title_en: Airuide
 description: 国际生
 img: assets/img/students/male.png
 importance: 32
