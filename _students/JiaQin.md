@@ -1,6 +1,7 @@
 ---
 layout: page
 title: 秦嘉
+title_en: Jia Qin
 description: 视频编码
 img: assets/img/students/JiaQin.png
 importance: 4
