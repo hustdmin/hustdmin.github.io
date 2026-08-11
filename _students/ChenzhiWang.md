@@ -1,6 +1,7 @@
 ---
 layout: page
 title: 王承志
+title_en: Chenzhi Wang
 description: 边缘视频分析
 img: assets/img/students/ChenzhiWang.png
 importance: 2
