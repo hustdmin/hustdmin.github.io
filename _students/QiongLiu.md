@@ -1,6 +1,7 @@
 ---
 layout: page
 title: 刘琼
+title_en: Qiong Liu
 description: 中国电力科学研究院
 img: assets/img/students/QiongLiu.png
 importance: 25
