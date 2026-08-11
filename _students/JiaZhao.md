@@ -1,6 +1,7 @@
 ---
 layout: page
 title: 赵佳
+title_en: Jia Zhao
 description: 中原电子
 img: assets/img/students/female.png
 importance: 30
