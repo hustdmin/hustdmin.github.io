@@ -1,6 +1,7 @@
 ---
 layout: page
 title: 彭燚
+title_en: Yi Peng
 description: 视频编码
 img: assets/img/students/YiPeng.png
 importance: 2
