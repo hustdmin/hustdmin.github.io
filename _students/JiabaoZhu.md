@@ -1,6 +1,7 @@
 ---
 layout: page
 title: 朱家宝
+title_en: Jiabao Zhu
 description: 视频编码
 img: assets/img/students/JiabaoZhu.png
 importance: 15
