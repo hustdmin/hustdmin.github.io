@@ -1,6 +1,7 @@
 ---
 layout: page
 title: 汪晨
+title_en: Chen Wang
 description: 农行研发中心武汉研发部
 img: assets/img/students/ChenWang.png
 importance: 25
