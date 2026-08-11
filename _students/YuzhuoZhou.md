@@ -1,6 +1,7 @@
 ---
 layout: page
 title: 周玉琢
+title_en: Yuzhuo Zhou
 description: 国家电网
 img: assets/img/students/YuzhuoZhou.png
 importance: 24
