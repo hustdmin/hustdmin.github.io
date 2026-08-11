@@ -1,6 +1,7 @@
 ---
 layout: page
 title: 黄海燕
+title_en: Haiyan Huang
 description: 武汉大学读博
 img: assets/img/students/HaiyanHuang.png
 importance: 24
