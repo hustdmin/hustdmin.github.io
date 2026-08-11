@@ -1,6 +1,7 @@
 ---
 layout: page
 title: 侯甲慰
+title_en: Jiawei Hou
 description: 视频分析、车路协同感知
 img: assets/img/students/JiaweiHou.png
 importance: 8
