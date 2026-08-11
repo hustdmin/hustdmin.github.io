@@ -1,6 +1,7 @@
 ---
 layout: page
 title: 罗晶晶
+title_en: Jingjing Luo
 description: 哈尔滨工业大学（深圳）助理教授
 img: assets/img/students/JingjingLuo.png
 importance: 4
