@@ -1,6 +1,7 @@
 ---
 layout: page
 title: 杜博阳
+title_en: Boyang Du
 description: 中国移动，2024年毕业
 img: assets/img/students/BoyangDu.png
 importance: 1
