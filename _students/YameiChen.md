@@ -1,6 +1,7 @@
 ---
 layout: page
 title: 陈雅梅
+title_en: Yamei Chen
 description: 腾讯
 img: assets/img/students/YameiChen.png
 importance: 26
