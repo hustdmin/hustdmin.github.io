@@ -1,6 +1,7 @@
 ---
 layout: page
 title: 王艺璇
+title_en: Yixuan Wang
 description: 武汉软件工程职业学院
 img: assets/img/students/YixuanWang.png
 importance: 26
