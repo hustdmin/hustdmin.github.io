@@ -1,6 +1,7 @@
 ---
 layout: page
 title: 张鑫祾
+title_en: Xinling Zhang
 description: 人脸伪造检测
 img: assets/img/students/XinlingZhang.png
 importance: 3
