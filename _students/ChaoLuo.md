@@ -1,6 +1,7 @@
 ---
 layout: page
 title: 罗超
+title_en: Chao Luo
 description: 中原电子
 img: assets/img/students/male.png
 importance: 30
