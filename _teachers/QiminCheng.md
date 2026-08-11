@@ -1,6 +1,7 @@
 ---
 layout: page
 title: 程起敏
+title_en: Qimin Cheng
 description: 教授
 img: /assets/img/teachers/QiminChen.png
 importance: 2
