@@ -1,6 +1,7 @@
 ---
 layout: page
 title: 刘聪
+title_en: Cong Liu
 description: 武汉工业大学副教授
 img: assets/img/students/male.png
 importance: 32
