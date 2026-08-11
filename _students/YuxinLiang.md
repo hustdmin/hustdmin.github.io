@@ -1,6 +1,7 @@
 ---
 layout: page
 title: 梁雨欣
+title_en: Yuxin Liang
 description: 移动AIGC网络
 img: assets/img/students/YuxinLiang.png
 importance: 4
