@@ -1,6 +1,7 @@
 ---
 layout: page
 title: 黄浩崧
+title_en: Haosong Huang
 description: 目标检测与跟踪
 img: assets/img/students/HaosongHuang.png
 importance: 4
