@@ -1,6 +1,7 @@
 ---
 layout: page
 title: 旷锦昊
+title_en: Jinghao Kuang
 description: 视频编码
 img: assets/img/students/JinghaoKuang.png
 importance: 15
