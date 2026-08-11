@@ -1,6 +1,7 @@
 ---
 layout: page
 title: 向森
+title_en: Sen Xiang
 description: 武汉科技大学副教授
 img: assets/img/students/male.png
 importance: 30
