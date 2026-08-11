@@ -1,6 +1,7 @@
 ---
 layout: page
 title: 刘林云
+title_en: Linyun Liu
 description: 视频编码
 img: assets/img/students/LinyunLiu.png
 importance: 9
