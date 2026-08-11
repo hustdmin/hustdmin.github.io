@@ -1,6 +1,7 @@
 ---
 layout: page
 title: 杨鹏
+title_en: Peng Yang
 description: 副教授
 img: /assets/img/teachers/PengYang.png
 importance: 3
