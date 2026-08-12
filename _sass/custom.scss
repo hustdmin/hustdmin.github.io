@@ -549,6 +549,7 @@ button, input, label, select, textarea {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: flex-start;
 }
 .lab-logo-hero-img {
   align-self: center;
