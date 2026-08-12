@@ -5,8 +5,8 @@ title_en: Bingyin Li
 description: 情感计算
 img: assets/img/students/BingyinLi.png
 importance: 2
-category: 硕士生
-redirect:
+category: 已毕业硕士
+redirect: 京东
 description_en: Affective computing
-category_en: Master Student
+category_en: Master Graduate
 ---
