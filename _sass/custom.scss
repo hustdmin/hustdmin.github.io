@@ -551,10 +551,9 @@ button, input, label, select, textarea {
   justify-content: center;
 }
 .lab-logo-hero-img {
-  align-self: stretch;
+  align-self: center;
   width: auto;
-  max-width: 50%;
-  height: auto;
+  height: clamp(48px, 5.5vw, 76px);
   object-fit: contain;
   border-radius: 8px;
 }
@@ -566,6 +565,6 @@ button, input, label, select, textarea {
   }
   .lab-logo-hero-img {
     align-self: auto;
-    max-width: 180px;
+    height: 52px;
   }
 }
