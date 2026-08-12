@@ -1,0 +1,118 @@
+// =============================================================================
+// DMIN Lab 美化样式（阶段 3：卡片与布局；阶段 4：论文与新闻页）
+// 仅做视觉增强，不改动主题色（品牌色更换见阶段 1）。
+// 颜色统一引用 al-folio 既有 CSS 变量，深浅色模式自动适配。
+// =============================================================================
+
+// -----------------------------------------------------------------------------
+// 阶段 3：卡片 hover 轻量抬升 + 圆角（研究/学生/师资/项目通用）
+// -----------------------------------------------------------------------------
+.card.hoverable {
+  border-radius: 14px;
+  overflow: hidden;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.card.hoverable:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.13);
+}
+
+// 卡片配图圆角（含学生/师资头像）
+.card-img img,
+.card-img figure img {
+  border-radius: 12px;
+}
+
+// -----------------------------------------------------------------------------
+// 阶段 3：研究页双列时，配图保持比例、不溢出
+// -----------------------------------------------------------------------------
+.research .card-img img {
+  object-fit: cover;
+}
+
+// -----------------------------------------------------------------------------
+// 阶段 4：论文页 —— 年份分组标题 + 条目 hover + 期刊徽标配色
+// -----------------------------------------------------------------------------
+.publications h2.bibliography {
+  font-size: 1.55rem;
+  font-weight: 600;
+  color: var(--global-text-color);
+  border-bottom: 2px solid var(--global-theme-color);
+  padding-bottom: 0.35rem;
+  margin: 2.2rem 0 1rem;
+}
+
+.publications li {
+  border-radius: 8px;
+  padding: 0.35rem 0.6rem;
+  transition: background-color 0.15s ease;
+}
+.publications li:hover {
+  background-color: rgba(0, 0, 0, 0.025);
+}
+
+// 期刊/会议缩写徽标（abbr）使用主题色统一着色
+.publications .abbr {
+  background-color: var(--global-theme-color) !important;
+  color: #ffffff;
+  border-radius: 6px;
+  padding: 0.1rem 0.4rem;
+}
+
+// -----------------------------------------------------------------------------
+// 阶段 4：新闻页（/blog/ 列表）—— 分隔线、标题 hover、日期、标签胶囊
+// -----------------------------------------------------------------------------
+.post-list li {
+  padding: 1rem 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+  transition: background-color 0.15s ease;
+}
+.post-list li:hover {
+  background-color: rgba(0, 0, 0, 0.02);
+}
+
+.post-title {
+  transition: color 0.15s ease;
+}
+.post-title:hover {
+  color: var(--global-theme-color);
+}
+
+.post-meta {
+  color: #6b7280;
+  font-size: 0.9rem;
+}
+
+// 标签（#荣誉 / #讲座 等）胶囊样式
+.post-tags a {
+  display: inline-block;
+  padding: 0.1rem 0.55rem;
+  margin: 0.1rem 0.2rem 0.1rem 0;
+  border-radius: 999px;
+  background-color: rgba(0, 0, 0, 0.05);
+  color: var(--global-text-color);
+  font-size: 0.8rem;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+.post-tags a:hover {
+  background-color: var(--global-theme-color);
+  color: #ffffff;
+  text-decoration: none;
+}
+
+// 新闻缩略图圆角
+.post-list img.card-img {
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+// -----------------------------------------------------------------------------
+// /news/ 表格页：日期列不换行、加粗
+// -----------------------------------------------------------------------------
+.news th[scope="row"] {
+  white-space: nowrap;
+  font-weight: 600;
+  color: var(--global-text-color);
+}
