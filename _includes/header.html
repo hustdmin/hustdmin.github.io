@@ -76,30 +76,41 @@
               {%- assign p_lang = p.lang | default: 'cn' -%}
               {%- if p.nav and p.autogen == nil and p_lang == current_lang -%}
               {%- if p.dropdown %}
-              <li class="nav-item dropdown {% if page.title == p.title %}active{% endif %}">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ p.title }}
-                  {%- if page.title == p.title -%}
-                  <span class="sr-only">(current)</span>
-                  {%- endif -%}
-                </a>
-                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                  {%- for child in p.children -%}
-                  {%- if child.title == 'divider' %}
-                  <div class="dropdown-divider"></div>
-                  {%- else %}
-                  <a class="dropdown-item" href="{{ child.permalink | relative_url }}">{{ child.title }}</a>
-                  {%- endif -%}
-                  {% endfor %}
-                </div>
-              </li>
+                {%- comment -%}父级下拉：当前页 URL 命中父级 permalink 或任一子项 permalink 时激活{%- endcomment -%}
+                {%- assign parent_active = false -%}
+                {%- assign pp = p.permalink -%}
+                {%- if page.url == pp or page.url contains pp %}{%- assign parent_active = true %}{%- endif -%}
+                {%- for child in p.children -%}
+                  {%- assign cp = child.permalink -%}
+                  {%- if page.url == cp or page.url contains cp %}{%- assign parent_active = true %}{%- endif -%}
+                {%- endfor -%}
+                <li class="nav-item dropdown {% if parent_active %}active{% endif %}">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ p.title }}
+                    {%- if parent_active -%}
+                    <span class="sr-only">(current)</span>
+                    {%- endif -%}
+                  </a>
+                  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                    {%- for child in p.children -%}
+                    {%- if child.title == 'divider' %}
+                    <div class="dropdown-divider"></div>
+                    {%- else %}
+                      {%- assign cp = child.permalink -%}
+                      {%- assign child_active = false -%}
+                      {%- if page.url == cp or page.url contains cp %}{%- assign child_active = true %}{%- endif -%}
+                      <a class="dropdown-item {% if child_active %}active{% endif %}" href="{{ child.permalink | relative_url }}" {% if child_active %}aria-current="page"{% endif %}>{{ child.title }}</a>
+                    {%- endif -%}
+                    {% endfor %}
+                  </div>
+                </li>
               {%- else %}
-              <li class="nav-item {% if page.title == p.title %}active{% endif %}">
-                <a class="nav-link" href="{{ p.url | relative_url }}">{{ p.title }}
-                  {%- if page.title == p.title -%}
-                  <span class="sr-only">(current)</span>
-                  {%- endif -%}
-                </a>
-              </li>
+                <li class="nav-item {% if page.url == p.url or page.url contains p.url %}active{% endif %}">
+                  <a class="nav-link" href="{{ p.url | relative_url }}">{{ p.title }}
+                    {%- if page.url == p.url or page.url contains p.url -%}
+                    <span class="sr-only">(current)</span>
+                    {%- endif -%}
+                  </a>
+                </li>
               {%- endif -%}
               {%- endif -%}
               {% endfor -%}
@@ -107,7 +118,7 @@
 
               <!-- Toogle theme mode -->
               <li class="toggle-container">
-                <button id="light-toggle" title="Change theme">
+                <button id="light-toggle" title="Change theme" aria-label="切换主题">
                   <i class="fas fa-moon"></i>
                   <i class="fas fa-sun"></i>
                 </button>
@@ -116,7 +127,7 @@
               {%- if site.enable_langswitch %}
               <!-- Language switch -->
               <li class="toggle-container">
-                <button id="lang-toggle" title="Switch language" data-has-en="{{ page.has_en | default: false }}">
+                <button id="lang-toggle" title="Switch language" aria-label="切换语言" data-has-en="{{ page.has_en | default: false }}">
                   <span id="lang-label">EN</span>
                 </button>
               </li>
