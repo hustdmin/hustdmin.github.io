@@ -11,9 +11,11 @@ social: false  # includes social icons at the bottom of the page
 has_en: true
 ---
 
-<div class="row">
+<div class="row home-photo-section">
     <div class="col-sm-10 mt-3 mt-md-0 mx-auto text-center">
-        {% include figure.html path="assets/img/DMIN1.jpg" title="数字媒体与智能网络实验室" class="img-fluid rounded z-depth-1" %}
+        <div class="home-photo-frame">
+            {% include figure.html path="assets/img/DMIN1.jpg" title="数字媒体与智能网络实验室" alt="数字媒体与智能网络实验室合影" class="img-fluid home-photo-img" %}
+        </div>
     </div>
 </div>
 
