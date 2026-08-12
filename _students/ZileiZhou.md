@@ -5,8 +5,8 @@ title_en: Zilei Zhou
 description: 遥感图文检索
 img: assets/img/students/ZileiZhou.png
 importance: 3
-category: 硕士生
+category: 已毕业硕士
 redirect:
 description_en: Remote sensing text-image retrieval
-category_en: Master Student
+category_en: Master Graduate
 ---
