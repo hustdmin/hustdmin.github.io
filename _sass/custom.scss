@@ -53,6 +53,12 @@
   background-color: rgba(0, 0, 0, 0.025);
 }
 
+// 论文条目：内容区从 col-sm-8 扩到 col-sm-10（jekyll-scholar 默认留 2 列空隙给侧边栏但未使用）
+.publications .col-sm-8 {
+  flex: 0 0 83.333333%;
+  max-width: 83.333333%;
+}
+
 // 期刊/会议缩写徽标（abbr）使用主题色统一着色，长名称自动换行防溢出
 .publications .abbr {
   background-color: var(--global-theme-color) !important;
