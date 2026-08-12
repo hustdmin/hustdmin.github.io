@@ -192,19 +192,66 @@ button, input, label, select, textarea {
 }
 
 // -----------------------------------------------------------------------------
-// 论文页：论文题目加粗 + 颜色加深（与作者/期刊形成明显视觉层次）
-// Noto Sans SC 中文字体 400/700 差异不够显著，故用 800 + 色深双管齐下
+// 论文页：仅论文题目加粗；作者、期刊/会议名称和徽标保持常规字重
 // -----------------------------------------------------------------------------
 .publications .title {
   font-weight: 800;
-  color: #1a1a1a;
+  color: var(--global-text-color);
 }
 
-// -----------------------------------------------------------------------------
-// 仅论文题目加粗；作者 / 期刊全称 / 缩写徽标恢复常规字重（避免被误认为一并加粗）
-// -----------------------------------------------------------------------------
 .publications .author,
+.publications .author *,
 .publications .periodical,
-.publications .badge {
+.publications .periodical *,
+.publications .abbr,
+.publications .badge,
+.publications .badge * {
   font-weight: 400;
+}
+
+
+// -----------------------------------------------------------------------------
+// 首页合影：正式清爽的图片展示
+// -----------------------------------------------------------------------------
+.home-photo-section {
+  margin: 1.2rem 0 1.8rem;
+}
+
+.home-photo-frame {
+  display: inline-block;
+  width: 100%;
+  max-width: 980px;
+  padding: 0.45rem;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.75);
+  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.14);
+}
+
+.home-photo-frame figure {
+  margin: 0;
+}
+
+.home-photo-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  object-fit: contain;
+  filter: contrast(1.03) saturate(1.04) brightness(1.02);
+}
+
+@media (max-width: 576px) {
+  .home-photo-section {
+    margin: 0.8rem 0 1.3rem;
+  }
+
+  .home-photo-frame {
+    padding: 0.25rem;
+    border-radius: 12px;
+    box-shadow: 0 10px 26px rgba(0, 0, 0, 0.12);
+  }
+
+  .home-photo-img {
+    border-radius: 9px;
+  }
 }
