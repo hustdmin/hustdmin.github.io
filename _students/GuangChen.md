@@ -5,8 +5,8 @@ title_en: Guang Chen
 description: 通信工程
 img: assets/img/students/GuangChen.png
 importance: 3
-category: 硕士生
+category: 已毕业硕士
 redirect:
 description_en: Communication Engineering
-category_en: Master Student
+category_en: Master Graduate
 ---
