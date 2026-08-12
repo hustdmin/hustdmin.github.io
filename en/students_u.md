@@ -15,9 +15,9 @@ horizontal: true
     {% assign categorized_projects = site.students | where: "category_en", category %}
     {% assign sorted_projects = categorized_projects | sort: "importance" %}
     {% if page.horizontal %}
-      <div class="container"><div class="row row-cols-2">
+      <div class="row row-cols-1 row-cols-md-3">
       {% for project in sorted_projects %}{% include projects_horizontal.html %}{% endfor %}
-      </div></div>
+      </div>
     {% else %}
       <div class="grid">{% for project in sorted_projects %}{% include projects.html %}{% endfor %}</div>
     {% endif %}
