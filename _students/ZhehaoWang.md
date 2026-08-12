@@ -5,8 +5,8 @@ title_en: Zhehao Wang
 description: 医学图像分割
 img: assets/img/students/ZhehaoWang.png
 importance: 3
-category: 硕士生
+category: 已毕业硕士
 redirect:
 description_en: Medical image segmentation
-category_en: Master Student
+category_en: Master Graduate
 ---
