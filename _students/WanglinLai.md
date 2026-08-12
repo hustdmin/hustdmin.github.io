@@ -2,11 +2,11 @@
 layout: page
 title: 赖汪林
 title_en: Wanglin Lai
-description: 视频编码
+description: 江西省选调生，2026年毕业
 img: assets/img/students/WanglinLai.png
 importance: 3
 category: 已毕业硕士
-redirect: 江西省选调生，2026年毕业
-description_en: Video coding
+redirect:
+description_en: Jiangxi Provincial Selected Graduate Program, graduated 2026
 category_en: Master Graduate
 ---
