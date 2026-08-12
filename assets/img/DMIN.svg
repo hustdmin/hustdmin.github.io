@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg"
-     viewBox="0 0 1750 600"
+     viewBox="0 0 1450 600"
      role="img"
      aria-labelledby="title desc">
   <title id="title">DMIN Laboratory Logo</title>
@@ -58,20 +58,10 @@
     </g>
   </g>
 
-  <!-- DMIN 路径字标，不依赖字体 -->
+  <!-- DMIN 路径字标：左侧 mark 图案充当 D，此处只排 MIN -->
   <g id="wordmark"
      fill="#123B63"
-     transform="translate(650 174)">
-
-    <!-- D -->
-    <path fill-rule="evenodd"
-          d="M0 0H112
-             C217 0 290 61 290 126
-             S217 252 112 252H0V0
-             Z
-             M65 52V200H110
-             C175 200 222 170 222 126
-             S175 52 110 52H65Z"/>
+     transform="translate(320 174)">
 
     <!-- M -->
     <path d="M335 252V0H402
