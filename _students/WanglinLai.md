@@ -6,7 +6,7 @@ description: 视频编码
 img: assets/img/students/WanglinLai.png
 importance: 3
 category: 已毕业硕士
-redirect: 江西省选调生
+redirect: 江西省选调生，2026年毕业
 description_en: Video coding
 category_en: Master Graduate
 ---
