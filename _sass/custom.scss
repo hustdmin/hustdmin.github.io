@@ -554,7 +554,7 @@ button, input, label, select, textarea {
 .lab-logo-hero-img {
   align-self: center;
   width: auto;
-  height: clamp(48px, 5.5vw, 76px);
+  height: clamp(53px, 6vw, 84px);
   object-fit: contain;
   border-radius: 8px;
 }
@@ -566,6 +566,6 @@ button, input, label, select, textarea {
   }
   .lab-logo-hero-img {
     align-self: auto;
-    height: 52px;
+    height: 57px;
   }
 }
