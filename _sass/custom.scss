@@ -534,17 +534,38 @@ button, input, label, select, textarea {
   }
 }
 
-// 关于页标题上方大标志（左对齐）
-.lab-logo-hero {
-  margin-bottom: 0.8rem;
+// 关于页标题行右侧 DMIN 标志（高度 = 标题 + 副标题，右对齐）
+.lab-title-row {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-between;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+.lab-title-block {
+  flex: 1 1 auto;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .lab-logo-hero-img {
-  max-width: 260px;
+  align-self: stretch;
+  width: auto;
+  max-width: 50%;
   height: auto;
+  object-fit: contain;
   border-radius: 8px;
 }
 @media (max-width: 576px) {
+  .lab-title-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.8rem;
+  }
   .lab-logo-hero-img {
+    align-self: auto;
     max-width: 180px;
   }
 }
