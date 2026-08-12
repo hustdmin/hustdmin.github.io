@@ -2,11 +2,11 @@
 layout: page
 title: 李振宇
 title_en: Zhenyu Li
-description: 人体姿态估计，模型轻量化
+description: 泰康科技，2025年毕业
 img: assets/img/students/ZhenyuLi.png
 importance: 2
 category: 已毕业硕士
-redirect: 泰康科技，2025年毕业
-description_en: Human pose estimation, model lightweighting
+redirect:
+description_en: Taikang Technology, graduated 2025
 category_en: Master Graduate
 ---
