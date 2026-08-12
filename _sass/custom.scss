@@ -164,3 +164,29 @@ button, input, label, select, textarea {
   line-height: 1.95;
   color: var(--global-text-color);
 }
+
+// -----------------------------------------------------------------------------
+// 研究方向页（#research）：介绍文字放大 + 配图缩小
+// 用 #research 限定，不影响学生/师资卡片（同样用 projects_horizontal 模板）
+// -----------------------------------------------------------------------------
+#research {
+  .card-text {
+    font-size: 1.15rem;
+    line-height: 1.9;
+  }
+  .card-title {
+    font-size: 1.5rem;
+    margin-bottom: 0.6rem;
+  }
+  // 桌面端：图列 50% → 40%、文字列 60%，图稍小且文字区更大
+  @media (min-width: 768px) {
+    .row.g-0 > .card-img.col-md-6 {
+      flex: 0 0 40%;
+      max-width: 40%;
+    }
+    .row.g-0 > .col-md-6:not(.card-img) {
+      flex: 0 0 60%;
+      max-width: 60%;
+    }
+  }
+}
