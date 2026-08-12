@@ -512,3 +512,39 @@ button, input, label, select, textarea {
     font-size: 0.9rem;
   }
 }
+
+
+
+// =============================================================================
+// DMIN 实验室标志（DMIN.png）
+// =============================================================================
+
+// 导航栏品牌右侧小标志（非首页，其他版块）
+.lab-logo-nav {
+  height: 30px;
+  width: auto;
+  margin-left: 8px;
+  vertical-align: middle;
+  border-radius: 4px;
+}
+@media (max-width: 576px) {
+  .lab-logo-nav {
+    height: 24px;
+    margin-left: 4px;
+  }
+}
+
+// 关于页标题上方大标志（左对齐）
+.lab-logo-hero {
+  margin-bottom: 0.8rem;
+}
+.lab-logo-hero-img {
+  max-width: 260px;
+  height: auto;
+  border-radius: 8px;
+}
+@media (max-width: 576px) {
+  .lab-logo-hero-img {
+    max-width: 180px;
+  }
+}
