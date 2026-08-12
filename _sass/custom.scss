@@ -149,3 +149,18 @@ button, input, label, select, textarea {
   font-family: "Noto Sans SC", "Roboto", -apple-system, BlinkMacSystemFont,
                "PingFang SC", "Microsoft YaHei", "Helvetica Neue", Arial, sans-serif;
 }
+
+// -----------------------------------------------------------------------------
+// 关于页（首页）：标题与简介正文放大，仅作用于 about.md 的 markdown 内容
+// -----------------------------------------------------------------------------
+.clearfix > h5 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-top: 1.4rem;
+}
+.clearfix > p {
+  font-size: 1.1rem;
+  line-height: 1.95;
+  color: var(--global-text-color);
+}
