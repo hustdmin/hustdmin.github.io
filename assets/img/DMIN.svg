@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 1600 600"
+     role="img"
+     aria-labelledby="title desc">
+  <title id="title">DMIN Laboratory Logo</title>
+  <desc id="desc">DMIN laboratory logo combining digital pixels and network nodes.</desc>
+
+  <!-- 图形标志 -->
+  <g id="mark">
+    <!-- 数字媒体像素 -->
+    <g fill="#16A6B6">
+      <rect x="70"  y="278" width="20" height="20" rx="2"/>
+      <rect x="98"  y="338" width="26" height="26" rx="2"/>
+      <rect x="122" y="226" width="34" height="34" rx="3"/>
+      <rect x="145" y="300" width="42" height="42" rx="3"/>
+      <rect x="171" y="188" width="28" height="28" rx="2"/>
+      <rect x="184" y="376" width="34" height="34" rx="3"/>
+      <rect x="213" y="248" width="36" height="36" rx="3"/>
+      <rect x="223" y="430" width="22" height="22" rx="2"/>
+    </g>
+
+    <g fill="#123B63">
+      <rect x="152" y="354" width="26" height="26" rx="2"/>
+      <rect x="204" y="213" width="30" height="30" rx="2"/>
+      <rect x="211" y="326" width="38" height="38" rx="3"/>
+      <rect x="248" y="393" width="46" height="46" rx="3"/>
+    </g>
+
+    <!-- 几何字母 D -->
+    <path fill="#123B63"
+          fill-rule="evenodd"
+          d="M250 105H332
+             C468 105 557 188 557 300
+             S468 495 332 495H250V105
+             Z
+             M332 187V413H342
+             C414 413 469 366 469 300
+             S414 187 342 187H332Z"/>
+
+    <!-- 智能网络连接 -->
+    <g fill="none"
+       stroke="#123B63"
+       stroke-width="10"
+       stroke-linecap="round"
+       stroke-linejoin="round">
+      <path d="M333 214L429 292L335 367L395 433"/>
+      <path d="M333 214V367"/>
+      <path d="M429 292L395 433"/>
+    </g>
+
+    <!-- 网络节点 -->
+    <g fill="#16A6B6" stroke="#FFFFFF" stroke-width="12">
+      <circle cx="333" cy="214" r="35"/>
+      <circle cx="429" cy="292" r="35"/>
+      <circle cx="335" cy="367" r="35"/>
+      <circle cx="395" cy="433" r="35"/>
+    </g>
+  </g>
+
+  <!-- DMIN 路径字标，不依赖字体 -->
+  <g id="wordmark"
+     fill="#123B63"
+     transform="translate(650 174)">
+
+    <!-- D -->
+    <path fill-rule="evenodd"
+          d="M0 0H112
+             C217 0 290 61 290 126
+             S217 252 112 252H0V0
+             Z
+             M65 52V200H110
+             C175 200 222 170 222 126
+             S175 52 110 52H65Z"/>
+
+    <!-- M -->
+    <path d="M335 252V0H402
+             L480 130L558 0H625V252H563V93
+             L488 215H470L397 93V252H335Z"/>
+
+    <!-- I -->
+    <path d="M680 0H745V252H680Z"/>
+
+    <!-- N -->
+    <path d="M800 252V0H861
+             L993 157V0H1057V252H999
+             L864 91V252H800Z"/>
+  </g>
+</svg>
