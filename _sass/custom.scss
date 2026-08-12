@@ -63,16 +63,31 @@
 .publications .abbr {
   background-color: var(--global-theme-color) !important;
   color: #ffffff;
-  border-radius: 6px;
-  padding: 0.15rem 0.5rem;
+  border-radius: 8px;
+  padding: 0.4rem 0.6rem;
   display: inline-block;
-  max-width: 160px;
+  max-width: 170px;
   white-space: normal;
   word-break: break-word;
-  line-height: 1.3;
+  line-height: 1.35;
   text-align: center;
   vertical-align: middle;
-  font-size: 0.82rem;
+  font-size: 1rem;
+}
+
+// 去掉紫色大框内的灰色小框（MDB .badge 默认带灰底+内边距），让简称直接落在紫框中并放大
+.publications .abbr .badge {
+  display: inline;
+  background: transparent !important;
+  color: #ffffff;
+  padding: 0 !important;
+  margin: 0;
+  border: none !important;
+  border-radius: 0;
+  box-shadow: none !important;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: inherit;
 }
 
 // -----------------------------------------------------------------------------
@@ -376,8 +391,9 @@ button, input, label, select, textarea {
   content: "";
   position: absolute;
   left: 0;
+  right: 0;
   bottom: 0;
-  width: 46px;
+  width: 100%;
   height: 3px;
   border-radius: 2px;
   background-color: var(--global-theme-color);
