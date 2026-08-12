@@ -11,7 +11,7 @@ has_en: true
 ---
 
 <!-- pages/projects.md -->
-<div class="projects">
+<div class="projects" id="research">
   {% assign sorted_projects = site.research | sort: "importance" %}
   <!-- Generate cards for each project -->
   {% if page.horizontal %}
