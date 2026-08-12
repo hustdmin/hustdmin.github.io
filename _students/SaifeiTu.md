@@ -5,8 +5,8 @@ title_en: Saifei Tu
 description: 深度学习，对抗攻击与防御
 img: assets/img/students/SaifeiTu.png
 importance: 3
-category: 硕士生
+category: 已毕业硕士
 redirect:
 description_en: Deep learning, adversarial attack and defense
-category_en: Master Student
+category_en: Master Graduate
 ---
