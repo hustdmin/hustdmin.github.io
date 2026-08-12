@@ -11,15 +11,13 @@ display_categories:
 horizontal: true
 ---
 
-<div class="projects">
+<div class="projects" id="research">
   {% assign sorted_projects = site.research | sort: "importance" %}
   {% if page.horizontal %}
-    <div class="container">
-      <div class="row row-cols-1">
-      {% for project in sorted_projects %}
-        {% include projects_horizontal.html %}
-      {% endfor %}
-      </div>
+    <div class="row row-cols-1">
+    {% for project in sorted_projects %}
+      {% include projects_horizontal.html %}
+    {% endfor %}
     </div>
   {% else %}
     <div class="grid">
