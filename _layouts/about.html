@@ -5,13 +5,15 @@ layout: default
 <!-- about.html -->
       <div class="post">
         <header class="post-header">
-          <div class="lab-logo-hero text-left">
+          <div class="lab-title-row">
+            <div class="lab-title-block">
+              <h1 class="post-title">
+                {% if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}
+              </h1>
+              <p class="desc">{{ page.subtitle }}</p>
+            </div>
             <img src="{{ '/assets/img/DMIN.svg' | relative_url }}" class="img-fluid lab-logo-hero-img" alt="DMIN Lab">
           </div>
-          <h1 class="post-title">
-            {% if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}
-          </h1>
-          <p class="desc">{{ page.subtitle }}</p>
         </header>
 
         <article>
