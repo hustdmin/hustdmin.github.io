@@ -5,8 +5,8 @@ title_en: Xinling Zhang
 description: 人脸伪造检测
 img: assets/img/students/XinlingZhang.png
 importance: 3
-category: 硕士生
+category: 已毕业硕士
 redirect:
 description_en: Face forgery detection
-category_en: Master Student
+category_en: Master Graduate
 ---
