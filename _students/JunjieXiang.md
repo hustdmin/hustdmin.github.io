@@ -5,8 +5,8 @@ title_en: Junjie Xiang
 description: 医学图像处理，目标检测
 img: assets/img/students/JunjieXiang.png
 importance: 3
-category: 硕士生
+category: 已毕业硕士
 redirect:
 description_en: Medical image processing, object detection
-category_en: Master Student
+category_en: Master Graduate
 ---
