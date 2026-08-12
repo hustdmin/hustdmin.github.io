@@ -124,3 +124,22 @@
   font-weight: 600;
   color: var(--global-text-color);
 }
+
+// -----------------------------------------------------------------------------
+// 本轮：内容区加宽（桌面端 800px → 1140px，配合 _config.yml max_width 双保险）
+// -----------------------------------------------------------------------------
+.container {
+  max-width: 1140px;
+}
+
+// -----------------------------------------------------------------------------
+// 本轮：中文统一字体（Noto Sans SC，经国内镜像 fonts.googleapis.cn 加载）
+// 仅作用于正文与标题；code / pre 由 al-folio/Bootstrap 显式设为等宽字体，不受影响。
+// -----------------------------------------------------------------------------
+body,
+h1, h2, h3, h4, h5, h6,
+p, div, span, li, a,
+button, input, label, select, textarea {
+  font-family: "Noto Sans SC", "Roboto", -apple-system, BlinkMacSystemFont,
+               "PingFang SC", "Microsoft YaHei", "Helvetica Neue", Arial, sans-serif;
+}
