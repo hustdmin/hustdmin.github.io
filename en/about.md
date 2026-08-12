@@ -11,9 +11,11 @@ selected_papers: false
 social: false
 ---
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/DMIN1.jpg" title="Digital Media and Intelligent Network Laboratory" class="img-fluid rounded z-depth-1" %}
+<div class="row home-photo-section">
+    <div class="col-sm-10 mt-3 mt-md-0 mx-auto text-center">
+        <div class="home-photo-frame">
+            {% include figure.html path="assets/img/DMIN1.jpg" title="Digital Media and Intelligent Network Laboratory" alt="Digital Media and Intelligent Network Laboratory group photo" class="img-fluid home-photo-img" %}
+        </div>
     </div>
 </div>
 
