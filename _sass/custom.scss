@@ -232,7 +232,8 @@ button, input, label, select, textarea {
 // 研究方向页（#research）：适度收紧卡片宽度与文字比例
 // 用 #research 限定，不影响学生/师资卡片（同样用 projects_horizontal 模板）
 // -----------------------------------------------------------------------------
-#research {
+#research,
+.projects {
   > .container {
     width: 100%;
     max-width: 960px;
@@ -250,16 +251,21 @@ button, input, label, select, textarea {
     margin-bottom: 0.5rem;
   }
 
-  // 桌面端：保留图片 40%、文字 60% 的横向布局
+  // 桌面端：图片 36%、文字 64%，并收窄文字列内边距以拓宽文字区域
   @media (min-width: 768px) {
     .row.g-0 > .card-img.col-md-6 {
-      flex: 0 0 40%;
-      max-width: 40%;
+      flex: 0 0 36%;
+      max-width: 36%;
     }
 
     .row.g-0 > .col-md-6:not(.card-img) {
-      flex: 0 0 60%;
-      max-width: 60%;
+      flex: 0 0 64%;
+      max-width: 64%;
+    }
+
+    .card-body {
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
     }
   }
 }
