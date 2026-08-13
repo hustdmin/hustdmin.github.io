@@ -5,6 +5,24 @@ date:   2024-12-29 14:00:00
 # description:
 tags: 活动
 related_posts: false
+
+description_en: "The lab team won the grand prize in a national science and technology innovation competition and was invited to perform at the 'Voice of the Forest' concert."
+title_en: "Lab Team Wins Grand Prize and Performs at 'Voice of the Forest' Concert"
+lang: en
+content_en: |
+  Recently, our lab team stood out in a national science and technology innovation competition and won the Grand Prize. This honor not only reflects the team members' excellent research capabilities and innovative spirit, but also further enhances the lab's influence and reputation in the field of science and technology innovation. As an outstanding representative of this competition, the lab team was invited by the 'Voice of the Forest' concert and participated in the in-venue performance of the event.
+  
+  The 'Voice of the Forest' concert is a cross-border feast that integrates technology and art. The event aims to showcase humanity's perception of and respect for the natural environment through the combination of music and nature. This year's concert specially invited teams and individuals with outstanding contributions in innovative technology and art to participate. With its excellent performance in science and technology innovation and interdisciplinary collaboration, the lab team became one of the focused invitees.
+  
+  In the in-venue performance, the lab team demonstrated its latest developed technology, combining the unique expression form of music and technology, and received unanimous praise from the live audience and expert judges. Through interactions with musicians, the team members successfully achieved a perfect fusion of technology and art, bringing the audience a dual feast of vision and hearing.
+  
+  This invitation is not only a recognition of the lab team's excellent achievements in science and technology innovation, but also a high evaluation of the lab's interdisciplinary collaboration ability and innovative spirit. On this platform, team members conducted in-depth exchanges with experts and scholars in more fields, further broadening their horizons and stimulating innovative inspiration.
+  
+  **Team leader Zhao Huijuan said**: 'Winning this award and being invited to the 'Voice of the Forest' concert is the result of the lab's unremitting efforts in scientific research innovation and disciplinary integration over a long period. We will continue to promote cross-border cooperation between technology and art, actively participate in more high-level academic and artistic exchange activities, and promote the transformation and application of scientific and technological innovation achievements.'
+  
+  ![image](assets/img/news/2024-senlin1.jpg)
+  
+  ![image](assets/img/news/2024-senlin2.jpg)
 ---
 
 近日，我实验室团队在全国科技创新大赛中脱颖而出，荣获特等奖，这一殊荣不仅体现了团队成员的卓越科研能力和创新精神，也进一步提升了实验室在科技创新领域的影响力和声誉。作为此次大赛的优秀代表，实验室团队受到了“森林之声”音乐会的邀请，并参与了该活动的内场演出。
