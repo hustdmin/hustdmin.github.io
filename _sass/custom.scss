@@ -387,6 +387,16 @@ li.toggle-container {
   color: var(--global-theme-color) !important;
 }
 
+// 主题切换图标与文字等高对齐
+#light-toggle i,
+#light-toggle svg {
+  width: 1em !important;
+  height: 1em !important;
+  font-size: 1rem !important;
+  line-height: 1 !important;
+  display: block;
+}
+
 // 移动端：导航项与下拉项至少 44px 高
 @media (max-width: 991.98px) {
   .navbar-nav .nav-link,
