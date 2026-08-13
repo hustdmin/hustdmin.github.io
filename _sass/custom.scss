@@ -184,6 +184,18 @@ button, input, label, select, textarea {
     margin-bottom: 0.5rem;
   }
 
+  // 统一学生/师资卡片配图比例，避免不同照片长宽比导致卡片高度不一（蔡少杰证件照比例略不同）
+  .card-img {
+    aspect-ratio: 5 / 7;
+    overflow: hidden;
+  }
+  .card-img figure,
+  .card-img figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
   @media (min-width: 768px) {
     // 仅减小文字列内边距，卡片宽度与图片占比维持原样
     .card-body {
