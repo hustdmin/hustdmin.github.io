@@ -8,7 +8,6 @@ related_posts: false
 
 description_en: "On November 29, 2023, Professor Chang Wen Chen gave a 'Scientific Spirit and Practice' lecture on talents in the AI era at HUST."
 title_en: "Professor Chang Wen Chen of PolyU Invited to Deliver 'Scientific Spirit and Practice' Lecture at HUST"
-lang: en
 content_en: |
   On November 29, 2023, at the invitation of our university and our team, Professor Chang Wen Chen of the Hong Kong Polytechnic University gave a 'Scientific Spirit and Practice' lecture at our university on 'Reflections on the Qualities for Success in the AI Era.' The report put forward new requirements for students to succeed in today's AI era. After multiple rounds of questions and discussions, the faculty and students present said they gained a great deal.
   
