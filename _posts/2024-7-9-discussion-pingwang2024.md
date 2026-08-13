@@ -5,6 +5,16 @@ date:   2024-7-9 23:59:30
 # description:
 tags: 活动
 related_posts: false
+
+description_en: "On July 9, 2024, Professor Ping Wang from the University of York held an academic seminar with DMIN Lab."
+title_en: "Professor Ping Wang of University of York Holds Research Exchange with DMIN Lab"
+lang: en
+content_en: |
+  On July 9, 2024, Professor Ping Wang from the University of York and the faculty and students of DMIN Lab held an academic seminar in Conference Room D304 of the School of Electronic Information and Communications. At the seminar, eight DMIN Lab students successively introduced the lab's main research directions and their own ongoing work to Professor Wang, covering hot research topics such as federated learning, medical image processing, vehicle-road collaborative perception, emotionally intelligent robots, video bitrate control, and machine vision coding. After listening to each student's report, Professor Wang engaged in in-depth exchanges and discussions with the faculty and students present, and offered constructive suggestions and future research prospects. Through this academic seminar with Professor Wang, the students gained a great deal and also developed a clearer understanding of their subsequent research work.
+  
+  ![image](assets/img/news/2024-pingwang5.jpg)
+  
+  ![image](assets/img/news/2024-pingwang4.jpg)
 ---
 
 
