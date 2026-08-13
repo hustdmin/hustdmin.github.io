@@ -1,19 +1,19 @@
-{% assign have_related_posts = false %}
-
-{% for post in site.related_posts | limit: site.related_blog_posts.max_related %}
-  {% unless have_related_posts %}
-    {% assign have_related_posts = true %}
-    <br>
-    <hr>
-    <br>
-    <ul class="list-disc pl-8"></ul>
-
-    <!-- Adds related posts to the end of an article -->
-    <h2 class="text-3xl font-semibold mb-4 mt-12">Enjoy Reading This Article?</h2>
-    <p class="mb-2">Here are some more articles you might like to read next:</p>
-  {% endunless %}
-
-  <li class="my-2">
-    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-  </li>
-{% endfor %}
+{% if site.related_posts.size > 0 %}
+<aside class="editorial-related" aria-labelledby="related-news-heading">
+  <h2 id="related-news-heading">更多新闻</h2>
+  <ul>
+    {% for related_post in site.related_posts limit: site.related_blog_posts.max_related %}
+      <li>
+        <time datetime="{{ related_post.date | date: '%Y-%m-%d' }}">{{ related_post.date | date: "%Y-%m-%d" }}</time>
+        {% if related_post.redirect == blank %}
+          <a href="{{ related_post.url | relative_url }}">{{ related_post.title | escape }}</a>
+        {% elsif related_post.redirect contains '://' %}
+          <a href="{{ related_post.redirect }}" target="_blank" rel="noopener noreferrer" aria-label="{{ related_post.title | escape }}（在新窗口打开）">{{ related_post.title | escape }} <i class="fas fa-external-link-alt editorial-news__external" aria-hidden="true"></i></a>
+        {% else %}
+          <a href="{{ related_post.redirect | relative_url }}">{{ related_post.title | escape }}</a>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+</aside>
+{% endif %}
