@@ -1,9 +1,14 @@
 {%- assign news_post = include.post -%}
+{%- assign L = page.lang | default: "cn" -%}
 {%- assign news_year = news_post.date | date: "%Y" -%}
 {%- assign news_date = news_post.date | date: "%Y-%m-%d" -%}
 {%- assign news_tags = news_post.tags | join: "" -%}
 {%- assign news_categories = news_post.categories | join: "" -%}
-{%- assign news_excerpt_source = news_post.description -%}
+{%- if L == 'en' and news_post.description_en != blank and news_post.description_en != empty -%}
+  {%- assign news_excerpt_source = news_post.description_en -%}
+{%- else -%}
+  {%- assign news_excerpt_source = news_post.description -%}
+{%- endif -%}
 {%- if news_excerpt_source == blank or news_excerpt_source == empty -%}
   {%- if news_post.external_source != blank and news_post.feed_content != blank -%}
     {%- assign news_excerpt_source = news_post.feed_content -%}
@@ -13,21 +18,36 @@
 {%- endif -%}
 {%- assign news_excerpt = news_excerpt_source | strip_html | strip_newlines | replace: "&nbsp;", " " | replace: "  ", " " | replace: "  ", " " | strip -%}
 <article class="editorial-news{% if news_post.featured %} editorial-news--featured{% endif %}">
-  <a class="editorial-news__date" href="{{ news_year | prepend: '/blog/' | append: '/' | relative_url }}" aria-label="查看 {{ news_year }} 年新闻"><time datetime="{{ news_date }}">{{ news_date }}</time></a>
+  <a class="editorial-news__date" href="{{ news_year | prepend: '/blog/' | append: '/' | relative_url }}" aria-label="{% if L == 'en' %}View news of {{ news_year }}{% else %}查看 {{ news_year }} 年新闻{% endif %}"><time datetime="{{ news_date }}">{{ news_date }}</time></a>
   <div class="editorial-news__content">
     <div class="editorial-news__heading">
-      {% if news_post.featured %}<span class="editorial-news__featured"><i class="fas fa-thumbtack" aria-hidden="true"></i> 置顶</span>{% endif %}
+      {% if news_post.featured %}<span class="editorial-news__featured"><i class="fas fa-thumbtack" aria-hidden="true"></i> {% if L == 'en' %}Pinned{% else %}置顶{% endif %}</span>{% endif %}
       <h2 class="editorial-news__title">
-        {% if news_post.redirect == blank %}<a href="{{ news_post.url | relative_url }}">{{ news_post.title | escape }}</a>
-        {% elsif news_post.redirect contains '://' %}<a href="{{ news_post.redirect }}" target="_blank" rel="noopener noreferrer" aria-label="{{ news_post.title | escape }}（在新窗口打开）">{{ news_post.title | escape }} <i class="fas fa-external-link-alt editorial-news__external" aria-hidden="true"></i></a>
-        {% else %}<a href="{{ news_post.redirect | relative_url }}">{{ news_post.title | escape }}</a>{% endif %}
+        {%- if L == 'en' and news_post.title_en -%}{%- assign news_title = news_post.title_en -%}
+        {%- else -%}{%- assign news_title = news_post.title -%}
+        {%- endif -%}
+        {% if news_post.redirect == blank %}<a href="{{ news_post.url | relative_url }}">{{ news_title | escape }}</a>
+        {% elsif news_post.redirect contains '://' %}<a href="{{ news_post.redirect }}" target="_blank" rel="noopener noreferrer" aria-label="{{ news_title | escape }}（{% if L == 'en' %}opens in a new window{% else %}在新窗口打开{% endif %}）">{{ news_title | escape }} <i class="fas fa-external-link-alt editorial-news__external" aria-hidden="true"></i></a>
+        {% else %}<a href="{{ news_post.redirect | relative_url }}">{{ news_title | escape }}</a>{% endif %}
       </h2>
     </div>
     {% if news_excerpt != blank %}<p class="editorial-news__excerpt">{{ news_excerpt | truncate: 120, "…" | escape }}</p>{% endif %}
     {% if news_tags != "" or news_categories != "" or news_post.external_source %}
-      <div class="editorial-news__labels" aria-label="新闻分类">
+      <div class="editorial-news__labels" aria-label="{% if L == 'en' %}News categories{% else %}新闻分类{% endif %}">
         {% if news_post.external_source %}<span>{{ news_post.external_source | escape }}</span>{% endif %}
-        {% for tag in news_post.tags %}<a href="{{ tag | slugify | prepend: '/blog/tag/' | append: '/' | relative_url }}">#{{ tag | escape }}</a>{% endfor %}
+        {% for tag in news_post.tags %}
+          {%- assign tag_label = tag -%}
+          {%- if L == 'en' -%}
+            {%- case tag -%}
+              {%- when '讲座' -%}{%- assign tag_label = 'Talks' -%}
+              {%- when '论文' -%}{%- assign tag_label = 'Papers' -%}
+              {%- when '竞赛' -%}{%- assign tag_label = 'Competitions' -%}
+              {%- when '荣誉' -%}{%- assign tag_label = 'Honors' -%}
+              {%- when '活动' -%}{%- assign tag_label = 'Activities' -%}
+            {%- endcase -%}
+          {%- endif -%}
+          <a href="{{ tag | slugify | prepend: '/blog/tag/' | append: '/' | relative_url }}">#{{ tag_label | escape }}</a>
+        {% endfor %}
         {% for category in news_post.categories %}<span>{{ category | escape }}</span>{% endfor %}
       </div>
     {% endif %}
