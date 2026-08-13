@@ -8,7 +8,6 @@ related_posts: false
 
 description_en: "The paper 'The lighter the better: Rethinking Transformers in medical image segmentation through adaptive pruning' by student Lin Xian has been accepted by IEEE TMI."
 title_en: "Paper by Student Lin Xian Accepted by IEEE TMI"
-lang: en
 content_en: |
   Recently, the paper 'The lighter the better: Rethinking Transformers in medical image segmentation through adaptive pruning' by our lab's student Lin Xian has been accepted by the international journal IEEE Transactions on Medical Imaging (TMI). TMI is one of the most important international journals in the field of medical image processing, a Tier-1 journal in the Chinese Academy of Sciences (CAS) classification, with high academic influence.
 ---
