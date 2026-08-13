@@ -10,7 +10,7 @@ layout: default
     <div class="editorial-article__meta" aria-label="{% if L == 'en' %}Post information{% else %}新闻信息{% endif %}">
       <time datetime="{{ page.date | date: '%Y-%m-%d' }}"><i class="far fa-calendar" aria-hidden="true"></i> {{ page.date | date: "%Y-%m-%d" }}</time>
       {% if page.author %}<span><i class="far fa-user" aria-hidden="true"></i> {{ page.author }}</span>{% endif %}
-      {% for tag in page.tags %}<a href="{{ tag | slugify | prepend: '/blog/tag/' | append: '/' | relative_url }}">#{{ tag }}</a>{% endfor %}
+      {% for tag in page.tags %}{% assign tag_label = tag %}{% if L == 'en' %}{% case tag %}{% when '讲座' %}{% assign tag_label = 'Talks' %}{% when '论文' %}{% assign tag_label = 'Papers' %}{% when '竞赛' %}{% assign tag_label = 'Competitions' %}{% when '荣誉' %}{% assign tag_label = 'Honors' %}{% when '活动' %}{% assign tag_label = 'Activities' %}{% endcase %}{% endif %}<a href="{{ tag | slugify | prepend: '/blog/tag/' | append: '/' | relative_url }}">#{{ tag_label | escape }}</a>{% endfor %}
       {% for category in page.categories %}<span>{{ category }}</span>{% endfor %}
       {% if site.enable_busuanzi %}<span><i class="far fa-eye" aria-hidden="true"></i> <span id="busuanzi_value_page_pv">0</span> {% if L == 'en' %}views{% else %}次阅读{% endif %}</span>{% endif %}
     </div>
