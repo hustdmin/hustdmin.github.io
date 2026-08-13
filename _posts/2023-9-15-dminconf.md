@@ -5,6 +5,16 @@ date:   2023-9-15 23:00:00
 # description:
 tags: 活动
 related_posts: false
+
+description_en: "On the evening of September 15, 2023, DMIN Lab held its fall 2023 semester opening mobilization meeting."
+title_en: "DMIN Lab Holds Fall 2023 Semester Opening Mobilization Meeting"
+lang: en
+content_en: |
+  On the evening of September 15, 2023, DMIN Lab organized its fall 2023 semester opening mobilization meeting. At the meeting, Professor Yu Li emphasized important matters such as work-rest schedules and graduate academic arrangements. Student Wu Nannan gave an academic sharing on federated learning.
+  
+  ![image](assets/img/news/2023-dmin1.jpg)
+  
+  ![image](assets/img/news/2023-dmin2.jpg)
 ---
 
 2023年9月15日晚，DMIN实验室组织2023年秋季学期开学动员会。会上，喻莉教授就作息、研究生学术安排等重要事项进行强调。吴南楠同学做了关于联邦学习的学术分享。
