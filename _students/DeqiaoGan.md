@@ -4,7 +4,7 @@ title: 甘德樵
 title_en: Deqiao Gan
 description: 华中科技大学继续读博
 img: assets/img/students/DeqiaoGan.png
-importance: 24
+importance: 37
 category: 已毕业硕士
 redirect:
 description_en: Continuing Ph.D. at HUST
