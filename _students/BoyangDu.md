@@ -4,7 +4,7 @@ title: 杜博阳
 title_en: Boyang Du
 description: 中国移动，2024年毕业
 img: assets/img/students/BoyangDu.png
-importance: 1
+importance: 25
 category: 已毕业硕士
 redirect:
 description_en: China Mobile, graduated 2024
