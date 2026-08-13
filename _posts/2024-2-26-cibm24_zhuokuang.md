@@ -8,7 +8,6 @@ related_posts: false
 
 description_en: "The paper 'Weakly Supervised Learning for Multi-Class Medical Image Segmentation via Feature Decomposition' by student Kuang Zhuo has been accepted by CIBM."
 title_en: "Paper by Student Kuang Zhuo Accepted by Computers in Biology and Medicine"
-lang: en
 content_en: |
   Recently, the paper 'Weakly Supervised Learning for Multi-Class Medical Image Segmentation via Feature Decomposition' by our lab's student Kuang Zhuo has been accepted by the international journal Computers in Biology and Medicine (CIBM). CIBM is one of the most important international journals in the field of medical image processing, a Tier-1 journal in the Chinese Academy of Sciences (CAS) classification, with high academic influence.
 ---
