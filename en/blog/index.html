@@ -1,0 +1,22 @@
+---
+layout: default
+lang: en
+title: News
+permalink: /en/blog/
+pagination:
+  enabled: true
+  collection: posts
+  permalink: /en/blog/page/:num/
+  per_page: 5
+  sort_field: date
+  sort_reverse: true
+  trail:
+    before: 1
+    after: 3
+---
+<div class="post editorial-news-hub">
+  <header class="editorial-news-hub__header"><h1>News</h1>{% if site.blog_description_en %}<p>{{ site.blog_description_en }}</p>{% endif %}</header>
+  {% include news_filters.html context="all" %}
+  <section class="editorial-news-list" aria-label="News list">{% for post in paginator.posts %}{% include news_item.html post=post %}{% endfor %}</section>
+  {% include pagination.html %}
+</div>
