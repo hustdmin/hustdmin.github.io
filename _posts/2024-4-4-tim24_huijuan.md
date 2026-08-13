@@ -8,7 +8,6 @@ related_posts: false
 
 description_en: "The paper 'KHFA: Knowledge-driven Hierarchical Feature Alignment framework for Subject-invariant Facial Action Unit Detection' by student Zhao Huijuan has been accepted by IEEE TIM."
 title_en: "Paper by Student Zhao Huijuan Accepted by IEEE TIM"
-lang: en
 content_en: |
   Recently, the paper 'KHFA: Knowledge-driven Hierarchical Feature Alignment framework for Subject-invariant Facial Action Unit Detection' by our lab's student Zhao Huijuan has been accepted by the international journal IEEE Transactions on Instrumentation and Measurement (TIM). TIM is one of the most important international journals in the field of instrumentation and measurement, a Tier-2 journal in the Chinese Academy of Sciences (CAS) classification, with high academic influence.
 ---
