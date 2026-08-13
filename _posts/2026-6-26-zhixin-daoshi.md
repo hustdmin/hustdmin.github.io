@@ -7,7 +7,6 @@ tags: 荣誉
 related_posts: false
 description_en: "Professor Yu Li of the School of Electronic Information and Communications has been named one of HUST's 2026 'Understanding Mentor' awardees, among only 10 honored university-wide."
 title_en: "Professor Yu Li Honored with HUST 2026 'Understanding Mentor' Title"
-lang: en
 content_en: |
   Warm congratulations! **Professor Yu Li** has been honored with the 2026 "Understanding Mentor" title of Huazhong University of Science and Technology (HUST).
   
