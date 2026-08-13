@@ -229,11 +229,9 @@ button, input, label, select, textarea {
 }
 
 // -----------------------------------------------------------------------------
-// 研究方向页（#research）：适度收紧卡片宽度与文字比例
-// 用 #research 限定，不影响学生/师资卡片（同样用 projects_horizontal 模板）
+// 研究方向页（#research）：适度收紧卡片宽度与文字比例（仅作用于 #research 自身）
 // -----------------------------------------------------------------------------
-#research,
-.projects {
+#research {
   > .container {
     width: 100%;
     max-width: 960px;
@@ -251,7 +249,7 @@ button, input, label, select, textarea {
     margin-bottom: 0.5rem;
   }
 
-  // 桌面端：图片 36%、文字 64%，并收窄文字列内边距以拓宽文字区域
+  // 桌面端：图片 36%、文字 64%
   @media (min-width: 768px) {
     .row.g-0 > .card-img.col-md-6 {
       flex: 0 0 36%;
@@ -262,7 +260,27 @@ button, input, label, select, textarea {
       flex: 0 0 64%;
       max-width: 64%;
     }
+  }
+}
 
+// -----------------------------------------------------------------------------
+// 学生 / 师资卡片（.projects）：卡片整体尺寸与图片/文字比例保持默认不变，
+// 仅收窄卡片内文字列左右内边距，减少文字两侧留白（即“文字区域拓宽”）。
+// 不改变卡片大小，也不改动图片占比，中英文页面共用。
+// -----------------------------------------------------------------------------
+.projects {
+  .card-text {
+    font-size: 1rem;
+    line-height: 1.7;
+  }
+
+  .card-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+
+  @media (min-width: 768px) {
+    // 仅减小文字列内边距，卡片宽度与图片占比维持原样
     .card-body {
       padding-left: 0.5rem;
       padding-right: 0.5rem;
