@@ -8,7 +8,6 @@ related_posts: false
 
 description_en: "Professor Ping Wang gave an online report on over-the-air federated learning (OTA-FL) at HUST."
 title_en: "Professor Ping Wang of University of York Invited to Deliver Academic Report at HUST"
-lang: en
 content_en: |
   Today, our lab invited Professor Ping Wang of the University of York to give an online report on over-the-air federated learning (OTA-FL). Recently, as a privacy-preserving collaborative learning technique in wireless networks, over-the-air federated learning has been proposed and attracted widespread attention. By adopting massive MIMO technology, large antenna arrays provide the server with considerable beamforming gain, thereby significantly suppressing errors in the over-the-air aggregation step. In this online lecture, Professor Wang shared their recent work on OTA-FL for massive MIMO systems and three promising future research directions for federated learning (partial model update, personalized federated learning, and federated learning security attack and defense). Through multiple rounds of questions and discussions, the faculty and students gained a deeper understanding of the application of federated learning algorithms in communication networks.
   
