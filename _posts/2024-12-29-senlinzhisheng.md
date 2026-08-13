@@ -8,7 +8,6 @@ related_posts: false
 
 description_en: "The lab team won the grand prize in a national science and technology innovation competition and was invited to perform at the 'Voice of the Forest' concert."
 title_en: "Lab Team Wins Grand Prize and Performs at 'Voice of the Forest' Concert"
-lang: en
 content_en: |
   Recently, our lab team stood out in a national science and technology innovation competition and won the Grand Prize. This honor not only reflects the team members' excellent research capabilities and innovative spirit, but also further enhances the lab's influence and reputation in the field of science and technology innovation. As an outstanding representative of this competition, the lab team was invited by the 'Voice of the Forest' concert and participated in the in-venue performance of the event.
   
