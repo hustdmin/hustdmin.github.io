@@ -8,7 +8,6 @@ related_posts: false
 
 description_en: "The paper 'FedIOD: Federated Multi-Organ Segmentation from Partial Labels by Exploring Inter-Organ Dependency' by student Wan Qin has been accepted by IEEE JBHI."
 title_en: "Paper by Student Wan Qin Accepted by IEEE JBHI"
-lang: en
 content_en: |
   Recently, the paper 'FedIOD: Federated Multi-Organ Segmentation from Partial Labels by Exploring Inter-Organ Dependency' by our lab's student Wan Qin has been accepted by the international journal IEEE Journal of Biomedical and Health Informatics (JBHI). JBHI is one of the most important international journals in the field of medical image processing, a Tier-1 journal in the Chinese Academy of Sciences (CAS) classification, with high academic influence.
 ---
