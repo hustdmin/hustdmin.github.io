@@ -8,7 +8,6 @@ related_posts: false
 
 description_en: "The paper 'Cluster-Re-Supervision: Bridging the Gap Between Image-Level and Pixel-Wise Labels for Weakly Supervised Medical Image Segmentation' by student Kuang Zhuo has been accepted by IEEE JBHI."
 title_en: "Paper by Student Kuang Zhuo Accepted by IEEE JBHI"
-lang: en
 content_en: |
   Recently, the paper 'Cluster-Re-Supervision: Bridging the Gap Between Image-Level and Pixel-Wise Labels for Weakly Supervised Medical Image Segmentation' by our lab's student Kuang Zhuo has been accepted by the international journal IEEE Journal of Biomedical and Health Informatics (IEEE JBHI). IEEE JBHI is one of the most important international journals in the field of medical image processing, a Tier-1 journal in the Chinese Academy of Sciences (CAS) classification, with high academic influence.
 ---
