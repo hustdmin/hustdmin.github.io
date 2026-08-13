@@ -8,7 +8,6 @@ tags: 活动
 related_posts: false
 description_en: "Nine master's students of DMIN Lab successfully defended their theses and graduated in June."
 title_en: "DMIN Lab Master's Students Graduate Successfully"
-lang: en
 content_en: |
   Recently, nine master's students of DMIN Lab - Hu Yuren, Li Zhenyu, Li Bingyin, Peng Yi, Luo Yue, Xu Yuqi, Ling Jiajun, Wang Chengzhi, and He Yuanyi - successfully completed their thesis defenses and graduated in June. We wish them a bright future and the fulfillment of all their aspirations on their respective journeys.
   
