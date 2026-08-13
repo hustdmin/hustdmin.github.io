@@ -1,11 +1,50 @@
 ---
+
 layout: post
 title:  实验室团队斩获“华为杯”第六届中国研究生人工智能创新大赛全国季军
 date:   2024-9-26 14:00:00
 # description:
 tags: 竞赛
 related_posts: false
+description_en: "The lab's vision group team '(●—●) Yu Xiaobai' won the national third prize at the 6th Huawei Cup AI Innovation Competition, with Professor Yu Li honored as Outstanding Supervisor."
+title_en: "Lab Team Wins National Third Prize at the 6th 'Huawei Cup' China Graduate AI Innovation Competition"
+lang: en
+content_en: |
+  From September 25 to 26, 2024, the final of the 6th "Huawei Cup" China Graduate AI Innovation Competition was successfully held in Harbin, Heilongjiang. The team "(●—●) Yu Xiaobai," formed by Zhao Huijuan, He Shuangjiang, Fan Xuanhe, and Li Zhenyu from the lab's vision group under the careful guidance of Professor Yu, won the national third prize with their project "Emotionally Intelligent Elderly Care - An Emotionally and Cognitively Embodied Interactive Agent for Elderly Companionship." At the same time, Professor Yu was honored with the "Outstanding Supervisor Award."
+  
+  *Project Overview*
+  
+  With the aging of China's population intensifying, according to data from the National Bureau of Statistics, as of 2023, the number of elderly living alone aged 60 and above nationwide has reached 160 million. At the same time, the trends of the one-child policy's legacy and low fertility are becoming increasingly pronounced, and young people, due to work and life pressures, cannot provide enough companionship to the elderly. Based on this social reality, the lab team innovatively developed the "emotionally and cognitively embodied interactive agent" - Yu Xiaobai - to address the problems of elderly people having no one to accompany them and their emotional needs not being met.
+  
+  The intelligent robot can actively detect changes in the elderly's emotions, meet their emotional needs through voice interaction, and simultaneously achieve contactless health monitoring. To address the emotional expression and communication barriers faced by the elderly, the team adopted micro-expression, compound expression, and Action Unit (AU) detection technologies to achieve accurate recognition of the elderly's emotions, and provided personalized emotional interaction experiences through silicon-based large models and facial expression generation technologies. In addition, the team also breakthrough-proposed a contactless remote heart-rate measurement technology, effectively solving the inconvenience of wearable health monitoring devices and providing real-time protection for the prevention and control of chronic diseases among the elderly. Currently, the project has achieved fruitful results, having published 15 related academic papers in top journals and conferences such as CVPR, TCSVT, and TIM, obtained 17 Chinese invention patents and 1 international invention patent, and reached cooperation with multiple units such as FiberHome, Huangshi People's Procuratorate, and Skyworth.
+  
+  *Competition Introduction*
+  
+  As one of the themed events of the "China Graduate Innovation and Practice Series Competitions," the China Graduate AI Innovation Competition is guided by the Degree Education and Graduate Education Department of the Ministry of Education and co-hosted by the China Academic Degrees and Graduate Education Society and the China Association for Science and Technology Youth Science and Technology Center. With the core philosophy of "AI Empowerment, Innovation Leadership," the competition aims to stimulate graduate students' awareness of innovation and cultivate high-end, compound, and applied talents, providing talent support for the healthy development of the artificial intelligence field. This edition was hosted by Harbin Engineering University, themed "AI Empowerment, Changing the World," focusing on the exploration of new-generation AI technologies and their in-depth application in smart manufacturing, smart cities, social governance, education, and elderly care. The competition attracted 2,618 teams from 310 universities at home and abroad to register, of which 2,228 teams completed submissions. After the preliminary review, a total of 786 teams won awards (about 30% of the teams that completed submissions), of which 200 teams entered the national final to compete for first, second, and third prizes as well as the overall championship. After the final review, a total of 60 teams won first prizes, 140 teams won second prizes, and 586 teams won third prizes. Fifteen teams won Huawei special awards.
+  
+  *Team Acknowledgments*
+  
+  Behind the excellent results in this competition is the day-and-night dedication of every team member. Special thanks to Chen Guang and Gao Qianwen, who contributed tremendous effort and wisdom to the project development and competition preparation. Through everyone's joint efforts, the lab's vision group once again demonstrated strong strength and unlimited potential in the field of AI innovation.
+  
+  In the future, the lab will continue to devote itself to frontier research in AI technology, actively promote the transformation and application of scientific research results, and explore more possibilities of AI empowering society.
+  
+  Related links:
+  [Our students achieve the best result in history at the China Graduate AI Innovation Competition](https://news.hust.edu.cn/info/1003/53540.htm)
+  
+  [EIC students achieve the best result in history at the 6th China Graduate AI Innovation Competition](https://eic.hust.edu.cn/info/1196/7945.htm)
+  
+  [HUST EIC students achieve the best result in history at the China Graduate AI Innovation Competition](https://mp.weixin.qq.com/s/kSajoJ1q6vATVhZ42SnGGA)
+  
+  [AI pinnacle event! HUST graduate students, 3 national first prizes!](https://mp.weixin.qq.com/s/G2rvJZ5Nz6QAoDZlK6o2iA)
+  
+  ![image](assets/img/news/2024-huaweibei1.jpg)
+  ![image](assets/img/news/2024-huaweibei2.jpg)
+  ![image](assets/img/news/2024-huaweibei3.jpg)
+  ![image](assets/img/news/2024-huaweibei4.jpg)
+  ![image](assets/img/news/2024-huaweibei5.jpg)
+  ![image](assets/img/news/2024-huaweibei6.jpg)
 ---
+
 
 2024年9月25日至26日，“华为杯”第六届中国研究生人工智能创新大赛总决赛在黑龙江哈尔滨顺利举行。实验室视觉组的赵慧娟、何双江、范烜赫、李振宇组成的“(●—●)喻小白”团队，在喻老师的精心指导下，凭借项目《情智适老——面向适老陪伴的情智具身交互智能体》在全国总决赛中斩获季军殊荣。同时，喻老师荣获“优秀指导教师奖”。
 
