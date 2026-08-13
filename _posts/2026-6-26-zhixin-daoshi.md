@@ -1,10 +1,39 @@
 ---
+
 layout: post
 title:  喻莉教授荣获华中科技大学2026年"知心导师"荣誉称号
 date:   2026-6-26 11:48:00
 tags: 荣誉
 related_posts: false
+description_en: "Professor Yu Li of the School of Electronic Information and Communications has been named one of HUST's 2026 'Understanding Mentor' awardees, among only 10 honored university-wide."
+title_en: "Professor Yu Li Honored with HUST 2026 'Understanding Mentor' Title"
+lang: en
+content_en: |
+  Warm congratulations! **Professor Yu Li** has been honored with the 2026 "Understanding Mentor" title of Huazhong University of Science and Technology (HUST).
+  
+  The 2026 HUST "Understanding Mentor" selection has concluded successfully. Through student nominations, school recommendations, online voting, and an on-site presentation round, 10 mentors were recognized university-wide, and Professor Yu Li was among the winners. Organized by the University's Student Affairs Department and hosted by the Graduate Student Union, the selection aims to deepen teacher-student interaction, foster a culture of education, and showcase the exemplary character of outstanding graduate mentors in moral education.
+  
+  ![image](assets/img/news/2026-zhixin-daoshi-3.jpg)
+  
+  Professor Yu Li is a professor and Ph.D. supervisor at the School of Electronic Information and Communications, a New Century Excellent Talent of the Ministry of Education, and a Hubei Provincial Distinguished Young Scholar, having devoted over thirty years to HUST. She has led her team to tackle numerous technical challenges such as intelligent robotics, with research results covered by major media; she has guided students to excel in various innovation competitions. Adhering to industry-education integration and mentorship across generations, she has trained more than 120 master's and doctoral graduates, now working throughout academia, government, industry, and leading technology fields. Both a teacher and a friend in daily life, she protects students' growth with warm activities and sincere companionship, a navigator on their research journey and an "understanding mentor" in their hearts.
+  
+  ![image](assets/img/news/2026-zhixin-daoshi-2.jpg)
+  
+  *At the selection site, Professor Yu Li delivered a keynote sharing.*
+  
+  In the eyes of her students, Professor Yu is not only a rigorous academic mentor but also a trusted friend with whom they can share confusion and seek help. Her office door is always open to students. To her, every "small matter" a student encounters is a "big issue" that deserves serious attention. Under Professor Yu's care, the research group is not only a place for scientific research, but more like a big family built on mutual trust, support, and shared growth.
+  
+  ![image](assets/img/news/2026-zhixin-daoshi-1.jpg)
+  
+  *"Yu Men Tong Xing, Shi En Yin Hang" - faculty and students of the group celebrate together.*
+  
+  This "Understanding Mentor" honor is a full affirmation of Professor Yu Li's long-standing educational philosophy of **"establishing oneself through research, putting education first, warming hearts with care, and serving the country with responsibility."** The School of Electronic Information and Communications will carry forward this warmth of education, continue to deepen the building of harmonious advisor-advisee relationships, and inspire more teachers to stay true to their educational mission and cultivate a mentor's sentiment, striving to be the understanding companions and guides on students' growth journey.
+  
+  ---
+  
+  Original link: https://mp.weixin.qq.com/s/E31Aphi284c4aStQyJZBGw
 ---
+
 
 热烈祝贺！**喻莉教授**荣获华中科技大学2026年"知心导师"荣誉称号。
 
