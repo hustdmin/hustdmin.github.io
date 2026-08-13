@@ -1,27 +1,9 @@
 ---
 layout: default
 ---
-
-<div class="post">
-
-  <header class="post-header">
-    <h1 class="post-title"> <i class="fas fa-hashtag fa-sm"></i> {{ page.title }} </h1>
-    <p class="post-description"> 这一类别的所有新闻 </p>
-  </header>
-
-  <article>
-    <div class="table-responsive">
-      <table class="table table-sm table-borderless">
-        {% for post in page.posts %}
-        <tr>
-          <th scope="row">{{ post.date | date: "%b %-d, %Y" }}</th>
-          <td>
-              <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
-          </td>
-        </tr>
-      {% endfor %}
-      </table>
-    </div>
-  </article>
-
+<div class="post editorial-news-hub editorial-news-archive">
+  <header class="editorial-news-hub__header"><p class="editorial-news-hub__kicker">新闻归档</p><h1>标签：{{ page.title }}</h1><p>共 {{ page.posts | size }} 条新闻</p></header>
+  {% include news_filters.html current_tag=page.title %}
+  <section class="editorial-news-list" aria-label="{{ page.title }} 标签的新闻">{% for post in page.posts %}{% include news_item.html post=post %}{% endfor %}</section>
+  <a class="editorial-news-back" href="{{ '/blog/' | relative_url }}"><i class="fas fa-arrow-left" aria-hidden="true"></i> 返回全部新闻</a>
 </div>
