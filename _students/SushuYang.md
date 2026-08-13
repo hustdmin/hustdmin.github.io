@@ -4,7 +4,7 @@ title: 杨甦舒
 title_en: Sushu Yang
 description: 重庆农村商业银行，2024年毕业
 img: assets/img/students/SushuYang.png
-importance: 1
+importance: 29
 category: 已毕业硕士
 redirect:
 description_en: Chongqing Rural Commercial Bank, graduated 2024
