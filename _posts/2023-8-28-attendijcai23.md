@@ -8,7 +8,6 @@ related_posts: false
 
 description_en: "Students Wu Nannan and Sun Zhaobin traveled to Macau to attend the International Joint Conference on Artificial Intelligence (IJCAI-23)."
 title_en: "Students Wu Nannan and Sun Zhaobin Attend IJCAI-23"
-lang: en
 content_en: |
   Recently, lab students Wu Nannan and Sun Zhaobin went to Macau to attend the International Joint Conference on Artificial Intelligence (IJCAI-23). IJCAI is one of the most important conferences in the field of artificial intelligence and a Category-A international academic conference recommended by the China Computer Federation (CCF), with high academic influence.
   
