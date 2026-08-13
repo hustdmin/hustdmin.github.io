@@ -8,7 +8,6 @@ tags: 论文
 related_posts: false
 description_en: "Ke Chenmin's paper on emotion recognition in conversations has been accepted by ICASSP, a CCF-B recommended conference."
 title_en: "Student Ke Chenmin's Paper Accepted by ICASSP"
-lang: en
 content_en: |
   Recently, the paper *EICA: An Emotional Inertia-Contagion-Aware Alignment for Emotion Recognition in Conversations* by our lab member Ke Chenmin has been accepted by **ICASSP**, one of the most important international conferences in signal processing and its applications, and a CCF-B recommended international academic conference with considerable academic influence.
 ---
