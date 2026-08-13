@@ -8,7 +8,6 @@ related_posts: false
 
 description_en: "The paper 'Learning-Based Query Scheduling and Resource Allocation for Low-Latency Mobile Edge Video Analytics' by student Lin Jie has been accepted by IEEE IoT Journal."
 title_en: "Paper by Student Lin Jie Accepted by IEEE IoT Journal"
-lang: en
 content_en: |
   Recently, the paper 'Learning-Based Query Scheduling and Resource Allocation for Low-Latency Mobile Edge Video Analytics' by our lab's student Lin Jie has been accepted by the international journal IEEE Internet of Things Journal (IoT-J). IEEE IoT-J is one of the important journals in the field of the Internet of Things, a Tier-1 journal in the Chinese Academy of Sciences (CAS) classification, with high academic influence.
 ---
