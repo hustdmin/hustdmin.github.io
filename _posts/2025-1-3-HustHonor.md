@@ -8,7 +8,6 @@ tags: 活动
 related_posts: false
 description_en: "Lab doctoral students Zhao Huijuan, He Shuangjiang, Fan Xuanhe and master's student Li Zhenyu were commended at HUST's 2024 student awards for winning the national third prize in the Huawei Cup AI competition."
 title_en: "HUST 2024 Advanced Student Collectives and Outstanding Individuals Commendation Conference"
-lang: en
 content_en: |
   On the morning of January 3, Huazhong University of Science and Technology (HUST) held the 2024 Advanced Student Collectives and Outstanding Individuals Commendation Conference to honor student collectives and individuals who achieved excellent results in various aspects over the past year. University leaders Zhang Guangjun, You Zheng, Zhan Yiqing, Xu Xiaodong, Xie Xiaolin, Zhang Yao, Feng Dan, and Zhang Tao attended the event. Themed "Aspire to Great Ambitions, Embrace Great Virtue, Achieve Great Talents, and Undertake Great Responsibilities," the conference was divided into four chapters: "Diligent Learning," "Striving," "Innovation," and "Excellence." University Party Deputy Secretary Zhang Yao read out the commendation decision and the list of high-level competition awards. University leaders presented awards to representative award-winning students.
   
