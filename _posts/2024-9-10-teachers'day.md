@@ -8,7 +8,6 @@ related_posts: false
 
 description_en: "On September 10, 2024, DMIN Lab faculty and students celebrated Teachers' Day."
 title_en: "Lab Faculty and Students Celebrate Teachers' Day"
-lang: en
 content_en: |
   On September 10, 2024, the faculty and students of the lab celebrated the annual Teachers' Day.
   
