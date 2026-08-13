@@ -8,7 +8,6 @@ related_posts: false
 
 description_en: "Student Lin Xian's project on medical image segmentation foundation models has been awarded the 2024 HUST Innovation Institute Technical Innovation Fund."
 title_en: "Student Lin Xian Awarded 2024 Innovation Institute Technical Innovation Fund Project"
-lang: en
 content_en: |
   Recently, the research project 'Research on Medical Image Segmentation Foundation Models Based on Intelligent Prompting' by our lab's student Lin Xian has been awarded the 2024 Huazhong University of Science and Technology Innovation Institute Technical Innovation Fund Project. This is the first time DMIN Lab has been awarded this project. Congratulations to student Lin Xian!
   
