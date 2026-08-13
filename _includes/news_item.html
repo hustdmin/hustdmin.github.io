@@ -1,0 +1,35 @@
+{%- assign news_post = include.post -%}
+{%- assign news_year = news_post.date | date: "%Y" -%}
+{%- assign news_date = news_post.date | date: "%Y-%m-%d" -%}
+{%- assign news_tags = news_post.tags | join: "" -%}
+{%- assign news_categories = news_post.categories | join: "" -%}
+{%- assign news_excerpt_source = news_post.description -%}
+{%- if news_excerpt_source == blank or news_excerpt_source == empty -%}
+  {%- if news_post.external_source != blank and news_post.feed_content != blank -%}
+    {%- assign news_excerpt_source = news_post.feed_content -%}
+  {%- else -%}
+    {%- assign news_excerpt_source = news_post.excerpt -%}
+  {%- endif -%}
+{%- endif -%}
+{%- assign news_excerpt = news_excerpt_source | strip_html | strip_newlines | replace: "&nbsp;", " " | replace: "  ", " " | replace: "  ", " " | strip -%}
+<article class="editorial-news{% if news_post.featured %} editorial-news--featured{% endif %}">
+  <a class="editorial-news__date" href="{{ news_year | prepend: '/blog/' | append: '/' | relative_url }}" aria-label="查看 {{ news_year }} 年新闻"><time datetime="{{ news_date }}">{{ news_date }}</time></a>
+  <div class="editorial-news__content">
+    <div class="editorial-news__heading">
+      {% if news_post.featured %}<span class="editorial-news__featured"><i class="fas fa-thumbtack" aria-hidden="true"></i> 置顶</span>{% endif %}
+      <h2 class="editorial-news__title">
+        {% if news_post.redirect == blank %}<a href="{{ news_post.url | relative_url }}">{{ news_post.title | escape }}</a>
+        {% elsif news_post.redirect contains '://' %}<a href="{{ news_post.redirect }}" target="_blank" rel="noopener noreferrer" aria-label="{{ news_post.title | escape }}（在新窗口打开）">{{ news_post.title | escape }} <i class="fas fa-external-link-alt editorial-news__external" aria-hidden="true"></i></a>
+        {% else %}<a href="{{ news_post.redirect | relative_url }}">{{ news_post.title | escape }}</a>{% endif %}
+      </h2>
+    </div>
+    {% if news_excerpt != blank %}<p class="editorial-news__excerpt">{{ news_excerpt | truncate: 120, "…" | escape }}</p>{% endif %}
+    {% if news_tags != "" or news_categories != "" or news_post.external_source %}
+      <div class="editorial-news__labels" aria-label="新闻分类">
+        {% if news_post.external_source %}<span>{{ news_post.external_source | escape }}</span>{% endif %}
+        {% for tag in news_post.tags %}<a href="{{ tag | slugify | prepend: '/blog/tag/' | append: '/' | relative_url }}">#{{ tag | escape }}</a>{% endfor %}
+        {% for category in news_post.categories %}<span>{{ category | escape }}</span>{% endfor %}
+      </div>
+    {% endif %}
+  </div>
+</article>
