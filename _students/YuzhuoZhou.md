@@ -4,7 +4,7 @@ title: 周玉琢
 title_en: Yuzhuo Zhou
 description: 国家电网
 img: assets/img/students/YuzhuoZhou.png
-importance: 24
+importance: 55
 category: 已毕业硕士
 redirect:
 description_en: State Grid Corporation of China
