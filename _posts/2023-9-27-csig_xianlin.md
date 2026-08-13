@@ -8,7 +8,6 @@ related_posts: false
 
 description_en: "On September 27, 2023, student Lin Xian was invited to share research on medical imaging and Transformers at the 6th CSIG Student Member Sharing Forum."
 title_en: "Student Lin Xian Invited to the 6th CSIG Student Member Sharing Forum"
-lang: en
 content_en: |
   The 6th CSIG (China Society of Image and Graphics) Student Member Sharing Forum was held on September 27, 2023. Our lab's student Lin Xian was invited to the sharing forum to give a presentation on medical images and Transformers.
   
