@@ -8,7 +8,6 @@ related_posts: false
 
 description_en: "Proposals JVET-AF0087 and JVET-AF0088 contributed by student Zhang Zixiang were adopted into the H.274/VSEI international video coding standard."
 title_en: "Proposal Contributed by Student Zhang Zixiang Adopted into H.274/VSEI International Standard"
-lang: en
 content_en: |
   Recently, the proposals JVET-AF0087 and JVET-AF0088, completed with the participation of our lab's student Zhang Zixiang, were discussed and adopted at the meeting of the Joint Video Experts Team (JVET) held in Hanover, and the related technologies were incorporated into the H.274/VSEI international video coding standard. The JVET meeting is held four times a year and is an important conference in the field of international video coding standards, with high industry influence.
 ---
