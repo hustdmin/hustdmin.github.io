@@ -1,8 +1,21 @@
 {%- assign news_current_tag = include.current_tag | default: "" -%}
-<nav class="editorial-filters" aria-label="新闻分类筛选">
-  <span class="editorial-filters__label">分类</span>
+{%- assign L = page.lang | default: "cn" -%}
+<nav class="editorial-filters" aria-label="{% if L == 'en' %}News category filter{% else %}新闻分类筛选{% endif %}">
+  <span class="editorial-filters__label">{% if L == 'en' %}Categories{% else %}分类{% endif %}</span>
   <div class="editorial-filters__list">
-    <a class="editorial-filters__pill{% if include.context == 'all' %} is-active{% endif %}" href="{{ '/blog/' | relative_url }}" {% if include.context == 'all' %}aria-current="page"{% endif %}>全部</a>
-    {% for tag in site.display_tags %}<a class="editorial-filters__pill{% if news_current_tag == tag %} is-active{% endif %}" href="{{ tag | slugify | prepend: '/blog/tag/' | append: '/' | relative_url }}" {% if news_current_tag == tag %}aria-current="page"{% endif %}>{{ tag }}</a>{% endfor %}
+    <a class="editorial-filters__pill{% if include.context == 'all' %} is-active{% endif %}" href="{% if L == 'en' %}{{ '/en/blog/' | relative_url }}{% else %}{{ '/blog/' | relative_url }}{% endif %}" {% if include.context == 'all' %}aria-current="page"{% endif %}>{% if L == 'en' %}All{% else %}全部{% endif %}</a>
+    {% for tag in site.display_tags %}
+      {%- assign tag_label = tag -%}
+      {%- if L == 'en' -%}
+        {%- case tag -%}
+          {%- when '讲座' -%}{%- assign tag_label = 'Talks' -%}
+          {%- when '论文' -%}{%- assign tag_label = 'Papers' -%}
+          {%- when '竞赛' -%}{%- assign tag_label = 'Competitions' -%}
+          {%- when '荣誉' -%}{%- assign tag_label = 'Honors' -%}
+          {%- when '活动' -%}{%- assign tag_label = 'Activities' -%}
+        {%- endcase -%}
+      {%- endif -%}
+      <a class="editorial-filters__pill{% if news_current_tag == tag %} is-active{% endif %}" href="{{ tag | slugify | prepend: '/blog/tag/' | append: '/' | relative_url }}" {% if news_current_tag == tag %}aria-current="page"{% endif %}>{{ tag_label }}</a>
+    {% endfor %}
   </div>
 </nav>
