@@ -4,7 +4,7 @@ title: 汪晨
 title_en: Chen Wang
 description: 农行研发中心武汉研发部
 img: assets/img/students/ChenWang.png
-importance: 25
+importance: 36
 category: 已毕业硕士
 redirect:
 description_en: Agricultural Bank of China R&D Center (Wuhan)
