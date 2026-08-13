@@ -5,6 +5,14 @@ date:   2024-1-4 23:59:00
 # description:
 tags: 活动
 related_posts: false
+
+description_en: "At the first postgraduate academic annual conference of the School of EIC, three DMIN Lab students presented their work and won best/poster awards."
+title_en: "DMIN Lab Students Achieve Excellent Results at the School of EIC Postgraduate Academic Annual Conference"
+lang: en
+content_en: |
+  On January 4, 2024, the School of Electronic Information and Communications at Huazhong University of Science and Technology held its first postgraduate academic annual conference. At the conference, our lab's three students Lin Xian, Wu Nannan, and Shi Junjie presented their important progress in their respective research fields. Student Lin Xian deeply discussed lightweight Transformer model architectures, a study of great significance for improving model efficiency and practicality. Student Wu Nannan focused on noise-robust federated learning, whose research results are of great value for improving the stability and reliability of federated learning in scenarios involving unreliable participants. Student Shi Junjie's work focused on missing-modality brain tumor segmentation, a study of major impact on the field of medical image analysis. Their presentations not only fully demonstrated profound academic foundations, but also showed their innovative ability in solving practical problems. After rigorous expert review, students Lin Xian and Wu Nannan won the Best Poster Award, while student Shi Junjie won the Excellent Poster Award. These awards are not only recognition of their individual research achievements, but also an affirmation of our lab's research level.
+  
+  ![image](assets/img/news/2024-eic_academic_conf.jpg)
 ---
 
 2024年1月4日，华中科技大学电子信息与通信学院举办了第一届研究生学术年会。在年会上，我实验室林娴、吴南楠、石俊杰三位同学展示了他们在各自研究领域中的重要进展。林娴同学深入探讨了轻量化Transformer模型架构，这一研究对于提高模型效率和实用性有着重要意义。吴南楠同学则聚焦于噪声鲁棒的联邦学习，其研究成果对于提高联邦学习在包含不可靠参与者场景下的稳定性和可靠性具有重要价值。石俊杰同学的工作聚焦于缺失模态脑肿瘤分割，这是一项对医疗影像分析领域具有重大影响的研究。他们的展示不仅充分展现了深厚的学术功底，也显示了他们在解决实际问题上的创新能力。经过严格的专家评审，林娴同学和吴南楠同学荣获最佳海报奖，石俊杰同学则获得了优秀海报奖。这些奖项不仅是对他们个人研究成果的认可，也是对我实验室科研水平的肯定。
