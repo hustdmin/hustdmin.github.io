@@ -8,7 +8,6 @@ related_posts: false
 
 description_en: "On November 6, 2024, a delegation led by the South African Deputy Minister of Science, Technology and Innovation visited HUST and exchanged with Prof. Yu Li's class."
 title_en: "Delegation of South African Deputy Minister Visits for Exchange"
-lang: en
 content_en: |
   On November 6, 2024, a delegation led by the Deputy Minister of Science, Technology and Innovation of South Africa visited the 'International Teaching Base for Engineering Education for International Students' at Huazhong University of Science and Technology, and during the visit attended the class of Professor Yu Li's course for international students, 'Mobile Communication Systems,' and exchanged and interacted with the faculty and students.
   
