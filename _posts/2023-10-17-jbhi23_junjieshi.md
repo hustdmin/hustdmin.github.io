@@ -8,7 +8,6 @@ related_posts: false
 
 description_en: "The paper 'M2FTrans: Modality-Masked Fusion Transformer for Incomplete Multi-Modality Brain Tumor Segmentation' by student Shi Junjie has been accepted by IEEE JBHI."
 title_en: "Paper by Student Shi Junjie Accepted by IEEE JBHI"
-lang: en
 content_en: |
   Recently, the paper 'M2FTrans: Modality-Masked Fusion Transformer for Incomplete Multi-Modality Brain Tumor Segmentation' by our lab's student Shi Junjie has been accepted by the international journal IEEE Journal of Biomedical and Health Informatics (IEEE JBHI). IEEE JBHI is one of the important international journals in the field of medical image processing, a Tier-1 journal in the Chinese Academy of Sciences (CAS) classification, with high academic influence in related fields.
 ---
