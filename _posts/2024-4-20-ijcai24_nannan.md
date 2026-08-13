@@ -8,7 +8,6 @@ related_posts: false
 
 description_en: "The paper 'From Optimization to Generalization: Fair Federated Learning against Quality Shift via Inter-Client Sharpness Matching' by student Wu Nannan has been accepted by IJCAI."
 title_en: "Paper by Student Wu Nannan Accepted by IJCAI"
-lang: en
 content_en: |
   Recently, the paper 'From Optimization to Generalization: Fair Federated Learning against Quality Shift via Inter-Client Sharpness Matching' by our lab's student Wu Nannan has been accepted by the international conference International Joint Conference on Artificial Intelligence (IJCAI). IJCAI is one of the most important international conferences in the field of artificial intelligence and a Category-A international academic conference recommended by the China Computer Federation (CCF), with high academic influence.
 ---
