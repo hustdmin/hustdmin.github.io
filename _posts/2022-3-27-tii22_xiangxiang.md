@@ -8,7 +8,6 @@ related_posts: false
 
 description_en: "The paper 'RESPIRE: Reducing Spatial-Temporal Redundancy for Efficient Edge-based Industrial Video Analytics' by undergraduate Dai Xiangxiang (advised by Assoc. Prof. Yang Peng) has been accepted by IEEE TII."
 title_en: "Paper by Undergraduate Student Dai Xiangxiang Accepted by IEEE TII"
-lang: en
 content_en: |
   Recently, the research achievement 'RESPIRE: Reducing Spatial-Temporal Redundancy for Efficient Edge-based Industrial Video Analytics' by undergraduate student Dai Xiangxiang, supervised by Associate Professor Yang Peng of our lab, in the direction of edge computing, has been accepted by the international journal IEEE Transactions on Industrial Informatics (IEEE TII). IEEE TII has considerable influence in the field of industrial information processing.
 ---
