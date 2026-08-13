@@ -8,7 +8,6 @@ related_posts: false
 
 description_en: "On the evening of January 31, 2024, DMIN Lab held its 2024 annual party at Chu Yun Zhuang Restaurant."
 title_en: "DMIN Lab Hosts 2024 Annual Party"
-lang: en
 content_en: |
   On the evening of January 31, 2024, DMIN Lab held its 2024 annual party at Chu Yun Zhuang Restaurant, with all faculty and students of the lab as well as some graduates invited to attend. With Professor Yu Li's New Year address, the annual party officially began. The faculty and students showcased their talents, with not only choruses and solos, but also skits and dubbing performances. As surprise guests, the professors and graduates also rose to the occasion, presenting their signature talents one after another. In addition, the event was interspersed with games and lucky draws, with everyone in high spirits and a warm, joyful atmosphere. Through this annual party, the lab not only achieved a balance between work and rest beyond study and research, but also brought the lab members closer together, making the lab family more united.
   
