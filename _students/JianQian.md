@@ -4,7 +4,7 @@ title: 钱健
 title_en: Jian Qian
 description: 大疆
 img: assets/img/students/JianQian.png
-importance: 24
+importance: 43
 category: 已毕业硕士
 redirect:
 description_en: DJI
