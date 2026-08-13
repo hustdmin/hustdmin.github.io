@@ -1,82 +1,22 @@
 ---
 layout: default
 ---
-<!-- _layouts/post.html -->
-{%- assign year = page.date | date: "%Y" -%}
-{%- assign tags = page.tags | join: "" -%}
-{%- assign categories = page.categories | join: "" -%}
-
-{% if page._styles %}
-<!-- Page/Post style -->
-<style type="text/css">
-  {{ page._styles }}
-</style>
-{% endif %}
-
-<div class="post">
-
-  <header class="post-header">
+{% if page._styles %}<style type="text/css">{{ page._styles }}</style>{% endif %}
+<div class="post editorial-article">
+  <a class="editorial-news-back editorial-article__back" href="{{ '/blog/' | relative_url }}"><i class="fas fa-arrow-left" aria-hidden="true"></i> 返回新闻</a>
+  <header class="post-header editorial-article__header">
     <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "%B %-d, %Y" }}{%- if page.author -%} • {{ page.author }}{%- endif -%}{%- if page.meta -%} • {{ page.meta }}{%- endif -%}</p>
-    <p class="post-tags">
-      <a href="{{ year | prepend: '/blog/' | prepend: site.baseurl}}"> <i class="fas fa-calendar fa-sm"></i> {{ year }} </a>
-      {%- if tags != "" %}
-      &nbsp; &middot; &nbsp;
-        {% for tag in page.tags -%}
-        <a href="{{ tag | slugify | prepend: '/blog/tag/' | prepend: site.baseurl}}">
-          <i class="fas fa-hashtag fa-sm"></i> {{ tag }}</a> &nbsp;
-          {% endfor -%}
-      {% endif %}
-
-      {%- if categories != "" %}
-      &nbsp; &middot; &nbsp;
-        {% for category in page.categories -%}
-        <a href="{{ category | slugify | prepend: '/blog/category/' | prepend: site.baseurl}}">
-          <i class="fas fa-tag fa-sm"></i> {{ category }}</a> &nbsp;
-          {% endfor -%}
-      {% endif %}
-
-    </p>
-
-      {%- if site.enable_busuanzi -%}
-      <p class="post-meta">
-        <i class="fas fa-eye fa-sm"></i> 阅读量 <span id="busuanzi_value_page_pv">0</span> 次
-      </p>
-      {%- endif -%}
-
+    <div class="editorial-article__meta" aria-label="新闻信息">
+      <time datetime="{{ page.date | date: '%Y-%m-%d' }}"><i class="far fa-calendar" aria-hidden="true"></i> {{ page.date | date: "%Y-%m-%d" }}</time>
+      {% if page.author %}<span><i class="far fa-user" aria-hidden="true"></i> {{ page.author }}</span>{% endif %}
+      {% for tag in page.tags %}<a href="{{ tag | slugify | prepend: '/blog/tag/' | append: '/' | relative_url }}">#{{ tag }}</a>{% endfor %}
+      {% for category in page.categories %}<span>{{ category }}</span>{% endfor %}
+      {% if site.enable_busuanzi %}<span><i class="far fa-eye" aria-hidden="true"></i> <span id="busuanzi_value_page_pv">0</span> 次阅读</span>{% endif %}
+    </div>
   </header>
-
-  <article class="post-content">
-    {% if page.toc and page.toc.beginning %}
-    <div id="table-of-contents">
-      {% toc %}
-    </div>
-    <hr>
-    {% endif %}
-    <div id="markdown-content">
-      {{ content }}
-    </div>
-  </article>
-
-  {%- if page.related_publications != null and page.related_publications.size > 0 -%}
-  {% assign publications = page.related_publications | replace: ", ", "," | split: "," | join: "|" %}
-  <h2>References</h2>
-  <div class="publications">
-    {% bibliography -f {{ site.scholar.bibliography }} -q @*[key^={{ publications }}]* %}
-  </div>
-  {%- endif %}
-
-  {%- if site.related_blog_posts.enabled -%}
-    {%- if page.related_posts == null or page.related_posts -%}
-      {% include related_posts.html %}
-    {%- endif %}
-  {%- endif %}
-
-  {%- if site.disqus_shortname and page.disqus_comments -%}
-    {% include disqus.html %}
-  {%- endif %}
-  {%- if site.giscus.repo and page.giscus_comments -%}
-    {% include giscus.html %}
-  {%- endif -%}
-
+  <article class="post-content editorial-article__content">{% if page.toc and page.toc.beginning %}<div id="table-of-contents">{% toc %}</div><hr>{% endif %}<div id="markdown-content">{{ content }}</div></article>
+  {% if page.related_publications != null and page.related_publications.size > 0 %}{% assign publications = page.related_publications | replace: ", ", "," | split: "," | join: "|" %}<section class="editorial-article__related-publications"><h2>相关论文</h2><div class="publications">{% bibliography -f {{ site.scholar.bibliography }} -q @*[key^={{ publications }}]* %}</div></section>{% endif %}
+  {% if site.related_blog_posts.enabled %}{% if page.related_posts == null or page.related_posts %}{% include related_posts.html %}{% endif %}{% endif %}
+  {% if site.disqus_shortname and page.disqus_comments %}{% include disqus.html %}{% endif %}
+  {% if site.giscus.repo and page.giscus_comments %}{% include giscus.html %}{% endif %}
 </div>
