@@ -8,7 +8,6 @@ tags: 论文
 related_posts: false
 description_en: "Chenguang's paper on an efficient photovoltaic defect detection algorithm has been accepted by Solar Energy (JCR Q2)."
 title_en: "Student Chenguang's Paper Accepted by Solar Energy"
-lang: en
 content_en: |
   Recently, the paper *An efficient algorithm for photovoltaic defect detection with curvature-adaptive and multi-branch convolutions* by our lab member Chenguang has been accepted by **Solar Energy**, a Q2 journal in the new-energy and renewable-energy field with considerable academic influence.
 ---
