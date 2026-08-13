@@ -8,7 +8,6 @@ tags: 竞赛
 related_posts: false
 description_en: "The lab's vision group team '(●—●) Yu Xiaobai' won the national third prize at the 6th Huawei Cup AI Innovation Competition, with Professor Yu Li honored as Outstanding Supervisor."
 title_en: "Lab Team Wins National Third Prize at the 6th 'Huawei Cup' China Graduate AI Innovation Competition"
-lang: en
 content_en: |
   From September 25 to 26, 2024, the final of the 6th "Huawei Cup" China Graduate AI Innovation Competition was successfully held in Harbin, Heilongjiang. The team "(●—●) Yu Xiaobai," formed by Zhao Huijuan, He Shuangjiang, Fan Xuanhe, and Li Zhenyu from the lab's vision group under the careful guidance of Professor Yu, won the national third prize with their project "Emotionally Intelligent Elderly Care - An Emotionally and Cognitively Embodied Interactive Agent for Elderly Companionship." At the same time, Professor Yu was honored with the "Outstanding Supervisor Award."
   
