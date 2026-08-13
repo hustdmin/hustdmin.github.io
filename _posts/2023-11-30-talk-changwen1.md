@@ -5,6 +5,18 @@ date:   2023-11-30 23:59:30
 # description:
 tags: 讲座
 related_posts: false
+
+description_en: "On November 30, 2023, Professor Chang Wen Chen of the Hong Kong Polytechnic University was invited to HUST to give a report on visual computing."
+title_en: "Professor Chang Wen Chen of PolyU Invited to Deliver Academic Report at HUST"
+lang: en
+content_en: |
+  On November 30, 2023, at the invitation of our team, Professor Chang Wen Chen of the Hong Kong Polytechnic University gave a report at our university titled 'Contemporary Visual Computing: Advances in Visual Storytelling and Scene Graph Generation.' The report shared the latest progress of the PolyU Visual Computing Laboratory in researching advanced visual computing algorithms for human understanding and machine intelligence. The faculty and students present said they gained a great deal.
+  
+  ![image](assets/img/news/2023-changwen3.jpg)
+  
+  ![image](assets/img/news/2023-changwen4.jpg)
+  
+  ![image](assets/img/news/2023-changwen5.jpg)
 ---
 
 
