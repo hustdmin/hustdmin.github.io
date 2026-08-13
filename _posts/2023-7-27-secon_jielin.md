@@ -8,7 +8,6 @@ related_posts: false
 
 description_en: "The paper 'Collaborative Redundancy Reduction for Communication-based Low-Latency Video Analytics in Autonomous Driving' by student Lin Jie has been accepted by IEEE SECON."
 title_en: "Paper by Student Lin Jie Accepted by IEEE SECON"
-lang: en
 content_en: |
   Recently, the paper 'Collaborative Redundancy Reduction for Communication-based Low-Latency Video Analytics in Autonomous Driving' by our lab's student Lin Jie has been accepted by the international conference IEEE SECON. IEEE SECON is one of the most important international conferences in the field of wireless sensing and communications and a Category-B international academic conference recommended by the China Computer Federation (CCF), with high academic influence.
 ---
