@@ -2,20 +2,21 @@
 layout: default
 ---
 {% if page._styles %}<style type="text/css">{{ page._styles }}</style>{% endif %}
+{% assign L = page.lang | default: "cn" %}
 <div class="post editorial-article">
-  <a class="editorial-news-back editorial-article__back" href="{{ '/blog/' | relative_url }}"><i class="fas fa-arrow-left" aria-hidden="true"></i> 返回新闻</a>
+  <a class="editorial-news-back editorial-article__back" href="{% if L == 'en' %}{{ '/en/blog/' | relative_url }}{% else %}{{ '/blog/' | relative_url }}{% endif %}"><i class="fas fa-arrow-left" aria-hidden="true"></i> {% if L == 'en' %}Back to News{% else %}返回新闻{% endif %}</a>
   <header class="post-header editorial-article__header">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <div class="editorial-article__meta" aria-label="新闻信息">
+    <h1 class="post-title">{% if L == 'en' and page.title_en %}{{ page.title_en | escape }}{% else %}{{ page.title | escape }}{% endif %}</h1>
+    <div class="editorial-article__meta" aria-label="{% if L == 'en' %}Post information{% else %}新闻信息{% endif %}">
       <time datetime="{{ page.date | date: '%Y-%m-%d' }}"><i class="far fa-calendar" aria-hidden="true"></i> {{ page.date | date: "%Y-%m-%d" }}</time>
       {% if page.author %}<span><i class="far fa-user" aria-hidden="true"></i> {{ page.author }}</span>{% endif %}
       {% for tag in page.tags %}<a href="{{ tag | slugify | prepend: '/blog/tag/' | append: '/' | relative_url }}">#{{ tag }}</a>{% endfor %}
       {% for category in page.categories %}<span>{{ category }}</span>{% endfor %}
-      {% if site.enable_busuanzi %}<span><i class="far fa-eye" aria-hidden="true"></i> <span id="busuanzi_value_page_pv">0</span> 次阅读</span>{% endif %}
+      {% if site.enable_busuanzi %}<span><i class="far fa-eye" aria-hidden="true"></i> <span id="busuanzi_value_page_pv">0</span> {% if L == 'en' %}views{% else %}次阅读{% endif %}</span>{% endif %}
     </div>
   </header>
-  <article class="post-content editorial-article__content">{% if page.toc and page.toc.beginning %}<div id="table-of-contents">{% toc %}</div><hr>{% endif %}<div id="markdown-content">{{ content }}</div></article>
-  {% if page.related_publications != null and page.related_publications.size > 0 %}{% assign publications = page.related_publications | replace: ", ", "," | split: "," | join: "|" %}<section class="editorial-article__related-publications"><h2>相关论文</h2><div class="publications">{% bibliography -f {{ site.scholar.bibliography }} -q @*[key^={{ publications }}]* %}</div></section>{% endif %}
+  <article class="post-content editorial-article__content">{% if page.toc and page.toc.beginning %}<div id="table-of-contents">{% toc %}</div><hr>{% endif %}<div id="markdown-content">{% if L == 'en' and page.content_en %}{{ page.content_en | markdownify }}{% else %}{{ content }}{% endif %}</div></article>
+  {% if page.related_publications != null and page.related_publications.size > 0 %}{% assign publications = page.related_publications | replace: ", ", "," | split: "," | join: "|" %}<section class="editorial-article__related-publications"><h2>{% if L == 'en' %}Related Publications{% else %}相关论文{% endif %}</h2><div class="publications">{% bibliography -f {{ site.scholar.bibliography }} -q @*[key^={{ publications }}]* %}</div></section>{% endif %}
   {% if site.related_blog_posts.enabled %}{% if page.related_posts == null or page.related_posts %}{% include related_posts.html %}{% endif %}{% endif %}
   {% if site.disqus_shortname and page.disqus_comments %}{% include disqus.html %}{% endif %}
   {% if site.giscus.repo and page.giscus_comments %}{% include giscus.html %}{% endif %}
