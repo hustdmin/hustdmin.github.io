@@ -3,7 +3,7 @@
 layout: post
 title:  团队机器人面部表情算法成果被湖北日报报道
 date:   2026-1-4 16:08:53
-tags: 媒体报道
+tags: 荣誉
 related_posts: false
 description_en: "Hubei Daily reports on the facial-expression algorithm of Professor Yu Li's team, which doubles the degrees of freedom of robotic facial expressions."
 title_en: "Team's Robotic Facial Expression Algorithm Featured in Hubei Daily"
