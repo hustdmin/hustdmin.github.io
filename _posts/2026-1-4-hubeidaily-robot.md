@@ -7,7 +7,6 @@ tags: 媒体报道
 related_posts: false
 description_en: "Hubei Daily reports on the facial-expression algorithm of Professor Yu Li's team, which doubles the degrees of freedom of robotic facial expressions."
 title_en: "Team's Robotic Facial Expression Algorithm Featured in Hubei Daily"
-lang: en
 content_en: |
   <figure>
   <video src="https://hbrbapp.hubeidaily.net/6ba9a5c5b7854c9b836801abb879a505.mp4" poster="https://hbrbapp.hubeidaily.net/406afd88a501497ba20e9725d665318d.jpg" controls width="100%"></video>
