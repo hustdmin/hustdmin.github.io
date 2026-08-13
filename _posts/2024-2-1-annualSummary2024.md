@@ -8,7 +8,6 @@ related_posts: false
 
 description_en: "From January 30 to 31, 2024, DMIN Lab organized its 2023 academic year-end summary reporting activity."
 title_en: "DMIN Lab Holds 2023 Year-End Summary Reports"
-lang: en
 content_en: |
   From January 30 to 31, 2024, DMIN Lab organized its 2023 academic year-end summary reporting activity, with all faculty and students of the lab participating. Each student gave a phased summary and review of their learning and work over the semester, and looked ahead to the plans for the next semester. Through the year-end reports, students not only summarized their own research work, but also learned about the research of other students, broadening their thinking. The lab's students gained a great deal from this activity.
   
