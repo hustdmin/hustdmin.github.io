@@ -358,27 +358,33 @@ button, input, label, select, textarea {
 }
 
 // 主题切换与语言切换按钮：统一尺寸、字号与垂直对齐
+// 父容器 li 也必须 flex 居中，否则两个按钮不在同一水平线
+li.toggle-container {
+  display: flex;
+  align-items: center;
+}
 #light-toggle,
 #lang-toggle {
-  width: 40px;
-  height: 40px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0;
+  width: 40px !important;
+  height: 40px !important;
+  min-width: 40px !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 0 !important;
   border: 0;
   background: transparent;
   color: var(--global-text-color);
   border-radius: 8px;
-  font-size: 1rem;
-  line-height: 1;
+  font-size: 1rem !important;
+  line-height: 1 !important;
   cursor: pointer;
   transition: background-color 0.2s ease, color 0.2s ease;
 }
 #light-toggle:hover,
 #lang-toggle:hover {
-  background-color: rgba(0, 0, 0, 0.06);
-  color: var(--global-theme-color);
+  background-color: rgba(0, 0, 0, 0.06) !important;
+  color: var(--global-theme-color) !important;
 }
 
 // 移动端：导航项与下拉项至少 44px 高
