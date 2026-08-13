@@ -4,7 +4,7 @@ title: 阳海浪
 title_en: Hailang Yang
 description: 中车株洲所
 img: assets/img/students/HailangYang.png
-importance: 25
+importance: 38
 category: 已毕业硕士
 redirect:
 description_en: CRRC Zhuzhou Institute
