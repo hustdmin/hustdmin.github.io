@@ -8,7 +8,6 @@ related_posts: false
 
 description_en: "Student Kuang Zhuo successfully defended his doctoral dissertation on low-cost-annotation hemorrhage stroke lesion image segmentation."
 title_en: "Student Kuang Zhuo Passes Doctoral Dissertation Defense"
-lang: en
 content_en: |
   Today, our lab's student Kuang Zhuo defended his doctoral dissertation titled 'Research on Hemorrhagic Stroke Lesion Image Segmentation Algorithms Based on Low-Cost Annotation.' After review, the defense committee approved his defense and awarded student Kuang Zhuo a Doctor of Engineering degree. Congratulations to student Kuang Zhuo!
   
