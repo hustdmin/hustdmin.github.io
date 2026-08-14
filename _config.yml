@@ -34,7 +34,7 @@ email:
 
 lang: cn # the language of your site (for example: en, fr, cn, ru, etc.)
 
-icon: DMIN.svg  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: DMIN-favicon.svg  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 
 
