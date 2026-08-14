@@ -11,7 +11,7 @@ children:
       permalink: /papers/
     - title: 专利
       permalink: /patents/
-    - title: 技术提案
+    - title: 标准提案
       permalink: /proposals/
 has_en: true
 ---
