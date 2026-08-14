@@ -1,4 +1,4 @@
-require 'jekyll'
+require "jekyll"
 
 # Generates an English detail page (/en/blog/...) for every post that has
 # English content (title_en / content_en). This mirrors the site's bilingual
@@ -44,6 +44,35 @@ module Jekyll
       @data['lang']      = 'en'
       @data['layout']    = 'post'
       @data['permalink'] = post.url.sub('/blog/', '/en/blog/')
+
+      # Fix relative image paths in content_en so they resolve correctly
+      # under /en/blog/2026/slug/ instead of /en/blog/2026/assets/img/...
+      if @data['content_en']
+        @data['content_en'] = fix_image_paths(@data['content_en'])
+      end
+    end
+
+    # Rewrite relative image src paths to absolute (prepend /).
+    # Handles: ![alt](path), <img src="path">
+    def fix_image_paths(content)
+      # Markdown images: ![alt](relative/path.ext)
+      content = content.gsub(/!\[([^\]]*)\]\(([^)]+\.(jpg|jpeg|png|gif|svg|webp))\)/i) do
+        alt = Regexp.last_match[1]
+        src = Regexp.last_match[2]
+        "![#{alt}](#{absolute_path(src)})"
+      end
+      # HTML img tags with relative src
+      content = content.gsub(/<img\s[^>]*src="([^"]+\.(jpg|jpeg|png|gif|svg|webp))"[^>]*>/i) do
+        match = Regexp.last_match[0]
+        src = Regexp.last_match[1]
+        match.sub(src, absolute_path(src))
+      end
+      content
+    end
+
+    def absolute_path(path)
+      return path if path.start_with?('/') || path.start_with?('http://') || path.start_with?('https://') || path.start_with?('{{')
+      '/' + path
     end
 
     # We build the page from the post's data in memory; do not read a file.
