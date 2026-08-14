@@ -29,8 +29,10 @@ module Jekyll
       @site = site
       @base = site.source
       @dir  = ''
-      @name = post.name
+      # Document has no `.name`; build a unique filename from basename+ext.
+      @name = post.basename + post.ext
       @data = {}
+      @content = post.content.to_s
 
       self.process(@name)
 
@@ -39,12 +41,9 @@ module Jekyll
       post.data.each { |k, v| @data[k] = v }
 
       # Force English rendering + EN permalink.
-      @data['lang']     = 'en'
-      @data['layout']   = 'post'
+      @data['lang']      = 'en'
+      @data['layout']    = 'post'
       @data['permalink'] = post.url.sub('/blog/', '/en/blog/')
-
-      # Raw CN body is ignored by post.html when lang == 'en' (it uses content_en).
-      @content = post.content.to_s
     end
 
     # We build the page from the post's data in memory; do not read a file.
