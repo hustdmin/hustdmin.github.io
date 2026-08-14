@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 512 512"
+     role="img"
+     aria-label="DMIN Lab">
+  <title>DMIN Laboratory</title>
+  <circle cx="256" cy="256" r="248" fill="#FFFFFF"/>
+  <g transform="translate(-30, -40) scale(0.82)">
+    <g fill="#16A6B6">
+      <rect x="70"  y="278" width="20" height="20" rx="2"/>
+      <rect x="98"  y="338" width="26" height="26" rx="2"/>
+      <rect x="122" y="226" width="34" height="34" rx="3"/>
+      <rect x="145" y="300" width="42" height="42" rx="3"/>
+      <rect x="171" y="188" width="28" height="28" rx="2"/>
+      <rect x="184" y="376" width="34" height="34" rx="3"/>
+      <rect x="213" y="248" width="36" height="36" rx="3"/>
+      <rect x="223" y="430" width="22" height="22" rx="2"/>
+    </g>
+    <g fill="#123B63">
+      <rect x="152" y="354" width="26" height="26" rx="2"/>
+      <rect x="204" y="213" width="30" height="30" rx="2"/>
+      <rect x="211" y="326" width="38" height="38" rx="3"/>
+      <rect x="248" y="393" width="46" height="46" rx="3"/>
+    </g>
+    <path fill="#123B63" fill-rule="evenodd"
+          d="M250 105H332C468 105 557 188 557 300S468 495 332 495H250V105Z
+             M332 187V413H342C414 413 469 366 469 300S414 187 342 187H332Z"/>
+    <g fill="none" stroke="#123B63" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M333 214L429 292L335 367L395 433"/>
+      <path d="M333 214V367"/>
+      <path d="M429 292L395 433"/>
+    </g>
+    <g fill="#16A6B6" stroke="#FFFFFF" stroke-width="12">
+      <circle cx="333" cy="214" r="35"/>
+      <circle cx="429" cy="292" r="35"/>
+      <circle cx="335" cy="367" r="35"/>
+      <circle cx="395" cy="433" r="35"/>
+    </g>
+  </g>
+</svg>
