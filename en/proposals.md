@@ -7,4 +7,4 @@ nav: false
 has_en: true
 ---
 
-- test
+- 喻莉, 钟煜城. **Optimization of EVM Template Cost Calculation Method**. AVS-M9398, 2025.12. (Accepted)
