@@ -13,4 +13,6 @@ children:
       permalink: /en/papers/
     - title: Patents
       permalink: /en/patents/
+    - title: Standard Contributions
+      permalink: /en/proposals/
 ---
