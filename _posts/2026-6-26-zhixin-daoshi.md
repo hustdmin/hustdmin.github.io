@@ -30,7 +30,7 @@ content_en: |
   
   ---
   
-  Original link: https://mp.weixin.qq.com/s/E31Aphi284c4aStQyJZBGw
+  [Original link](https://mp.weixin.qq.com/s/E31Aphi284c4aStQyJZBGw)
 ---
 
 
@@ -72,4 +72,4 @@ content_en: |
 
 ---
 
-原文链接：https://mp.weixin.qq.com/s/E31Aphi284c4aStQyJZBGw
+[原文链接](https://mp.weixin.qq.com/s/E31Aphi284c4aStQyJZBGw)
