@@ -47,7 +47,7 @@ content_en: |
     </div>
 </div>
 
-<div style="text-align: center;">
+<div style="text-align: center; margin-top: -0.5rem; margin-bottom: 2rem;">
 2026年教师节表彰大会颁奖仪式
 </div>
 
@@ -59,18 +59,14 @@ content_en: |
     </div>
 </div>
 
-<div style="text-align: center;">
+<div style="text-align: center; margin-top: -0.5rem; margin-bottom: 2rem;">
 研究生"知心导师"表彰名单
 </div>
 
-<div class="row mt-3">
+<div class="row mt-3" style="margin-bottom: 2rem;">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/news/2026-zhixin-daoshi-yuli.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
-</div>
-
-<div style="text-align: center;">
-喻莉教授手捧荣誉证书与鲜花在表彰大会现场
 </div>
 
 <div class="row mt-3">
@@ -79,7 +75,7 @@ content_en: |
     </div>
 </div>
 
-<div style="text-align: center;">
+<div style="text-align: center; margin-top: -0.5rem; margin-bottom: 2rem;">
 课题组师生在2026年教师节表彰大会现场合影
 </div>
 
