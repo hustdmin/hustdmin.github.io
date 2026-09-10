@@ -22,6 +22,14 @@ content_en: |
 
   *List of graduate "Understanding Mentor" awardees.*
 
+  ![image](assets/img/news/2026-zhixin-daoshi-yuli.jpg)
+
+  *Professor Yu Li with her honorary certificate and flowers at the conference.*
+
+  ![image](assets/img/news/2026-zhixin-daoshi-group.jpg)
+
+  *Faculty and students of the group at the 2026 HUST Teachers' Day commendation conference.*
+
   Warm congratulations to Professor Yu Li! (See also: her selection as a 2026 HUST "Understanding Mentor" announced this June.)
 
   ---
@@ -53,6 +61,26 @@ content_en: |
 
 <div style="text-align: center;">
 研究生"知心导师"表彰名单
+</div>
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/news/2026-zhixin-daoshi-yuli.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div style="text-align: center;">
+喻莉教授手捧荣誉证书与鲜花在表彰大会现场
+</div>
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/news/2026-zhixin-daoshi-group.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div style="text-align: center;">
+课题组师生在2026年教师节表彰大会现场合影
 </div>
 
 热烈祝贺喻莉教授！
