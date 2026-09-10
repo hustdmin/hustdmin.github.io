@@ -26,7 +26,7 @@ content_en: |
 
   ---
 
-  Original link: https://mp.weixin.qq.com/s/rmZuO5-PJc9Uf3jxWyKGJA
+  [Original link](https://mp.weixin.qq.com/s/rmZuO5-PJc9Uf3jxWyKGJA)
 ---
 
 9月10日，华中科技大学举行2026年教师节表彰大会。今年教师节的主题为"大力弘扬教育家精神，共筑尊师重教风尚"。大会向深耕教学科研一线、在学校事业发展中勇担使命、在立德树人中率先垂范的优秀教职工代表致以崇高敬意并予以表彰。
@@ -59,4 +59,4 @@ content_en: |
 
 ---
 
-原文链接：https://mp.weixin.qq.com/s/rmZuO5-PJc9Uf3jxWyKGJA
+[原文链接](https://mp.weixin.qq.com/s/rmZuO5-PJc9Uf3jxWyKGJA)
