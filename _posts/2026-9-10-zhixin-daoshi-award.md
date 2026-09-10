@@ -18,7 +18,7 @@ content_en: |
 
   The conference announced the list of graduate "Understanding Mentor" awardees — only 10 mentors were honored university-wide, and Professor Yu Li was among them:
 
-  ![image](assets/img/news/2026-zhixin-daoshi-list.png)
+  ![image](assets/img/news/2026-zhixin-daoshi-list.jpg)
 
   *List of graduate "Understanding Mentor" awardees.*
 
@@ -47,7 +47,7 @@ content_en: |
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/news/2026-zhixin-daoshi-list.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/news/2026-zhixin-daoshi-list.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
