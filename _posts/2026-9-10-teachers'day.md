@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  实验室师生庆祝教师节
-date:   2026-9-10 00:00:00 +0800
+date:   2026-9-10 00:00:00
 # description:
 tags: 活动
 related_posts: false
